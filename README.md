@@ -1,4 +1,4 @@
-## Inital Investment Size: $1,000.00
+## Investment Per Month Size: $1,000.00
 ## Final Wallet Size: 1613352.33
 ## Final Cost: $4,884,000.00
 ## Final Returns: $67,884,981,919.68
