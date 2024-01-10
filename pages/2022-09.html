@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #customers {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #customers td,
+        #customers th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #customers tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #customers tr:hover {
+            background-color: #ddd;
+        }
+
+        #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #04AA6D;
+            color: white;
+        }
+    </style>
+
+    <style>
+        a {
+            text-decoration: none;
+            display: inline-block;
+            padding: 8px 16px;
+        }
+
+        a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .previous {
+            background-color: #f1f1f1;
+            color: black;
+        }
+
+        .next {
+            background-color: #04AA6D;
+            color: white;
+        }
+
+        .round {
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <table id="customers">
+        <tr>
+            <th>Date</th>
+            <th>Price</th>
+            <th>Change</th>
+            <th>Since start</th>
+        </tr>
+        <tr><td>2022-09-01 00:00:00</td><td>20141.0</td><td>nan%</td><td>2014094.00%</td></tr><tr><td>2022-09-02 00:00:00</td><td>19964.29</td><td>-17671.00%</td><td>1996423.00%</td></tr><tr><td>2022-09-03 00:00:00</td><td>19826.13</td><td>-13816.00%</td><td>1982607.00%</td></tr><tr><td>2022-09-04 00:00:00</td><td>19960.54</td><td>13441.00%</td><td>1996048.00%</td></tr><tr><td>2022-09-05 00:00:00</td><td>19787.45</td><td>-17309.00%</td><td>1978739.00%</td></tr><tr><td>2022-09-06 00:00:00</td><td>18871.36</td><td>-91609.00%</td><td>1887130.00%</td></tr><tr><td>2022-09-07 00:00:00</td><td>19349.67</td><td>47831.00%</td><td>1934961.00%</td></tr><tr><td>2022-09-08 00:00:00</td><td>19374.22</td><td>2455.00%</td><td>1937416.00%</td></tr><tr><td>2022-09-09 00:00:00</td><td>21383.0</td><td>200878.00%</td><td>2138294.00%</td></tr><tr><td>2022-09-10 00:00:00</td><td>21719.0</td><td>33600.00%</td><td>2171894.00%</td></tr><tr><td>2022-09-11 00:00:00</td><td>21772.0</td><td>5300.00%</td><td>2177194.00%</td></tr><tr><td>2022-09-12 00:00:00</td><td>22354.0</td><td>58200.00%</td><td>2235394.00%</td></tr><tr><td>2022-09-13 00:00:00</td><td>20178.0</td><td>-217600.00%</td><td>2017794.00%</td></tr><tr><td>2022-09-14 00:00:00</td><td>20236.0</td><td>5800.00%</td><td>2023594.00%</td></tr><tr><td>2022-09-15 00:00:00</td><td>19620.23</td><td>-61577.00%</td><td>1962017.00%</td></tr><tr><td>2022-09-16 00:00:00</td><td>19846.86</td><td>22663.00%</td><td>1984680.00%</td></tr><tr><td>2022-09-17 00:00:00</td><td>20117.0</td><td>27014.00%</td><td>2011694.00%</td></tr><tr><td>2022-09-18 00:00:00</td><td>19434.2</td><td>-68280.00%</td><td>1943414.00%</td></tr><tr><td>2022-09-19 00:00:00</td><td>19548.81</td><td>11461.00%</td><td>1954875.00%</td></tr><tr><td>2022-09-20 00:00:00</td><td>18886.64</td><td>-66217.00%</td><td>1888658.00%</td></tr><tr><td>2022-09-21 00:00:00</td><td>18479.7</td><td>-40694.00%</td><td>1847964.00%</td></tr><tr><td>2022-09-22 00:00:00</td><td>19447.11</td><td>96741.00%</td><td>1944705.00%</td></tr><tr><td>2022-09-23 00:00:00</td><td>19316.27</td><td>-13084.00%</td><td>1931621.00%</td></tr><tr><td>2022-09-24 00:00:00</td><td>18953.57</td><td>-36270.00%</td><td>1895351.00%</td></tr><tr><td>2022-09-25 00:00:00</td><td>18789.87</td><td>-16370.00%</td><td>1878981.00%</td></tr><tr><td>2022-09-26 00:00:00</td><td>19211.72</td><td>42185.00%</td><td>1921166.00%</td></tr><tr><td>2022-09-27 00:00:00</td><td>19207.3</td><td>-442.00%</td><td>1920724.00%</td></tr><tr><td>2022-09-28 00:00:00</td><td>19464.3</td><td>25700.00%</td><td>1946424.00%</td></tr><tr><td>2022-09-29 00:00:00</td><td>19563.78</td><td>9948.00%</td><td>1956372.00%</td></tr><tr><td>2022-09-30 00:00:00</td><td>19448.06</td><td>-11572.00%</td><td>1944800.00%</td></tr>
+    </table>
+
+
+    <!-- PREVIOS BUTTON -->
+    <a class="previous" href="https://0xlino.github.io/bitcoinovertime/pages/2022-08.html">Prev</a>
+    <!-- NEXT BUTTON -->
+    <a class="next" href="https://0xlino.github.io/bitcoinovertime/pages/2022-10.html">Next</a>
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #customers {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #customers td,
+        #customers th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #customers tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #customers tr:hover {
+            background-color: #ddd;
+        }
+
+        #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #04AA6D;
+            color: white;
+        }
+    </style>
+
+    <style>
+        a {
+            text-decoration: none;
+            display: inline-block;
+            padding: 8px 16px;
+        }
+
+        a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .previous {
+            background-color: #f1f1f1;
+            color: black;
+        }
+
+        .next {
+            background-color: #04AA6D;
+            color: white;
+        }
+
+        .round {
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <table id="customers">
+        <tr>
+            <th>Date</th>
+            <th>Price</th>
+            <th>Change</th>
+            <th>Since start</th>
+        </tr>
+        <tr><td>2012-07-01 00:00:00</td><td>6.6</td><td>nan%</td><td>654.00%</td></tr><tr><td>2012-07-02 00:00:00</td><td>6.68</td><td>8.00%</td><td>662.00%</td></tr><tr><td>2012-07-03 00:00:00</td><td>6.55</td><td>-13.00%</td><td>649.00%</td></tr><tr><td>2012-07-04 00:00:00</td><td>6.5</td><td>-5.00%</td><td>644.00%</td></tr><tr><td>2012-07-05 00:00:00</td><td>6.64</td><td>14.00%</td><td>658.00%</td></tr><tr><td>2012-07-06 00:00:00</td><td>6.63</td><td>-1.00%</td><td>657.00%</td></tr><tr><td>2012-07-07 00:00:00</td><td>6.76</td><td>13.00%</td><td>670.00%</td></tr><tr><td>2012-07-08 00:00:00</td><td>6.77</td><td>1.00%</td><td>671.00%</td></tr><tr><td>2012-07-09 00:00:00</td><td>6.86</td><td>9.00%</td><td>680.00%</td></tr><tr><td>2012-07-10 00:00:00</td><td>7.09</td><td>23.00%</td><td>703.00%</td></tr><tr><td>2012-07-11 00:00:00</td><td>7.1</td><td>1.00%</td><td>704.00%</td></tr><tr><td>2012-07-12 00:00:00</td><td>7.28</td><td>18.00%</td><td>722.00%</td></tr><tr><td>2012-07-13 00:00:00</td><td>7.63</td><td>35.00%</td><td>757.00%</td></tr><tr><td>2012-07-14 00:00:00</td><td>7.59</td><td>-4.00%</td><td>753.00%</td></tr><tr><td>2012-07-15 00:00:00</td><td>7.57</td><td>-2.00%</td><td>751.00%</td></tr><tr><td>2012-07-16 00:00:00</td><td>8.05</td><td>48.00%</td><td>799.00%</td></tr><tr><td>2012-07-17 00:00:00</td><td>8.33</td><td>28.00%</td><td>827.00%</td></tr><tr><td>2012-07-18 00:00:00</td><td>9.0</td><td>67.00%</td><td>894.00%</td></tr><tr><td>2012-07-19 00:00:00</td><td>9.08</td><td>8.00%</td><td>902.00%</td></tr><tr><td>2012-07-20 00:00:00</td><td>8.2</td><td>-88.00%</td><td>814.00%</td></tr><tr><td>2012-07-21 00:00:00</td><td>8.87</td><td>67.00%</td><td>881.00%</td></tr><tr><td>2012-07-22 00:00:00</td><td>8.61</td><td>-26.00%</td><td>855.00%</td></tr><tr><td>2012-07-23 00:00:00</td><td>8.46</td><td>-15.00%</td><td>840.00%</td></tr><tr><td>2012-07-24 00:00:00</td><td>8.61</td><td>15.00%</td><td>855.00%</td></tr><tr><td>2012-07-25 00:00:00</td><td>8.58</td><td>-3.00%</td><td>852.00%</td></tr><tr><td>2012-07-26 00:00:00</td><td>8.75</td><td>17.00%</td><td>869.00%</td></tr><tr><td>2012-07-27 00:00:00</td><td>8.88</td><td>13.00%</td><td>882.00%</td></tr><tr><td>2012-07-28 00:00:00</td><td>8.85</td><td>-3.00%</td><td>879.00%</td></tr><tr><td>2012-07-29 00:00:00</td><td>8.76</td><td>-9.00%</td><td>870.00%</td></tr><tr><td>2012-07-30 00:00:00</td><td>8.92</td><td>16.00%</td><td>886.00%</td></tr><tr><td>2012-07-31 00:00:00</td><td>9.24</td><td>32.00%</td><td>918.00%</td></tr>
+    </table>
+
+
+    <!-- PREVIOS BUTTON -->
+    <a class="previous" href="https://0xlino.github.io/bitcoinovertime/pages/2012-06.html">Prev</a>
+    <!-- NEXT BUTTON -->
+    <a class="next" href="https://0xlino.github.io/bitcoinovertime/pages/2012-08.html">Next</a>
+</body>
+
+</html>

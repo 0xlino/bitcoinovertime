@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #customers {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #customers td,
+        #customers th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #customers tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #customers tr:hover {
+            background-color: #ddd;
+        }
+
+        #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #04AA6D;
+            color: white;
+        }
+    </style>
+
+    <style>
+        a {
+            text-decoration: none;
+            display: inline-block;
+            padding: 8px 16px;
+        }
+
+        a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .previous {
+            background-color: #f1f1f1;
+            color: black;
+        }
+
+        .next {
+            background-color: #04AA6D;
+            color: white;
+        }
+
+        .round {
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <table id="customers">
+        <tr>
+            <th>Date</th>
+            <th>Price</th>
+            <th>Change</th>
+            <th>Since start</th>
+        </tr>
+        <tr><td>2021-10-01 00:00:00</td><td>48214.0</td><td>nan%</td><td>4821394.00%</td></tr><tr><td>2021-10-02 00:00:00</td><td>47886.0</td><td>-32800.00%</td><td>4788594.00%</td></tr><tr><td>2021-10-03 00:00:00</td><td>48192.0</td><td>30600.00%</td><td>4819194.00%</td></tr><tr><td>2021-10-04 00:00:00</td><td>49290.0</td><td>109800.00%</td><td>4928994.00%</td></tr><tr><td>2021-10-05 00:00:00</td><td>51627.0</td><td>233700.00%</td><td>5162694.00%</td></tr><tr><td>2021-10-06 00:00:00</td><td>55348.0</td><td>372100.00%</td><td>5534794.00%</td></tr><tr><td>2021-10-07 00:00:00</td><td>53892.0</td><td>-145600.00%</td><td>5389194.00%</td></tr><tr><td>2021-10-08 00:00:00</td><td>53967.0</td><td>7500.00%</td><td>5396694.00%</td></tr><tr><td>2021-10-09 00:00:00</td><td>55044.0</td><td>107700.00%</td><td>5504394.00%</td></tr><tr><td>2021-10-10 00:00:00</td><td>54853.0</td><td>-19100.00%</td><td>5485294.00%</td></tr><tr><td>2021-10-11 00:00:00</td><td>57586.0</td><td>273300.00%</td><td>5758594.00%</td></tr><tr><td>2021-10-12 00:00:00</td><td>56296.0</td><td>-129000.00%</td><td>5629594.00%</td></tr><tr><td>2021-10-13 00:00:00</td><td>57562.0</td><td>126600.00%</td><td>5756194.00%</td></tr><tr><td>2021-10-14 00:00:00</td><td>57450.0</td><td>-11200.00%</td><td>5744994.00%</td></tr><tr><td>2021-10-15 00:00:00</td><td>61741.0</td><td>429100.00%</td><td>6174094.00%</td></tr><tr><td>2021-10-16 00:00:00</td><td>61006.0</td><td>-73500.00%</td><td>6100594.00%</td></tr><tr><td>2021-10-17 00:00:00</td><td>61584.0</td><td>57800.00%</td><td>6158394.00%</td></tr><tr><td>2021-10-18 00:00:00</td><td>62368.0</td><td>78400.00%</td><td>6236794.00%</td></tr><tr><td>2021-10-19 00:00:00</td><td>64637.0</td><td>226900.00%</td><td>6463694.00%</td></tr><tr><td>2021-10-20 00:00:00</td><td>66103.0</td><td>146600.00%</td><td>6610294.00%</td></tr><tr><td>2021-10-21 00:00:00</td><td>62720.0</td><td>-338300.00%</td><td>6271994.00%</td></tr><tr><td>2021-10-22 00:00:00</td><td>61001.0</td><td>-171900.00%</td><td>6100094.00%</td></tr><tr><td>2021-10-23 00:00:00</td><td>61602.0</td><td>60100.00%</td><td>6160194.00%</td></tr><tr><td>2021-10-24 00:00:00</td><td>61173.0</td><td>-42900.00%</td><td>6117294.00%</td></tr><tr><td>2021-10-25 00:00:00</td><td>63182.0</td><td>200900.00%</td><td>6318194.00%</td></tr><tr><td>2021-10-26 00:00:00</td><td>60729.0</td><td>-245300.00%</td><td>6072894.00%</td></tr><tr><td>2021-10-27 00:00:00</td><td>58624.0</td><td>-210500.00%</td><td>5862394.00%</td></tr><tr><td>2021-10-28 00:00:00</td><td>60765.0</td><td>214100.00%</td><td>6076494.00%</td></tr><tr><td>2021-10-29 00:00:00</td><td>62376.0</td><td>161100.00%</td><td>6237594.00%</td></tr><tr><td>2021-10-30 00:00:00</td><td>61893.0</td><td>-48300.00%</td><td>6189294.00%</td></tr><tr><td>2021-10-31 00:00:00</td><td>61412.0</td><td>-48100.00%</td><td>6141194.00%</td></tr>
+    </table>
+
+
+    <!-- PREVIOS BUTTON -->
+    <a class="previous" href="https://0xlino.github.io/bitcoinovertime/pages/2021-09.html">Prev</a>
+    <!-- NEXT BUTTON -->
+    <a class="next" href="https://0xlino.github.io/bitcoinovertime/pages/2021-11.html">Next</a>
+</body>
+
+</html>

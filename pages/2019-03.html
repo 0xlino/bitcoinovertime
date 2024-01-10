@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #customers {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #customers td,
+        #customers th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #customers tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #customers tr:hover {
+            background-color: #ddd;
+        }
+
+        #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #04AA6D;
+            color: white;
+        }
+    </style>
+
+    <style>
+        a {
+            text-decoration: none;
+            display: inline-block;
+            padding: 8px 16px;
+        }
+
+        a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .previous {
+            background-color: #f1f1f1;
+            color: black;
+        }
+
+        .next {
+            background-color: #04AA6D;
+            color: white;
+        }
+
+        .round {
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <table id="customers">
+        <tr>
+            <th>Date</th>
+            <th>Price</th>
+            <th>Change</th>
+            <th>Since start</th>
+        </tr>
+        <tr><td>2019-03-01 00:00:00</td><td>3830.92</td><td>nan%</td><td>383086.00%</td></tr><tr><td>2019-03-02 00:00:00</td><td>3834.99</td><td>407.00%</td><td>383493.00%</td></tr><tr><td>2019-03-03 00:00:00</td><td>3828.3</td><td>-669.00%</td><td>382824.00%</td></tr><tr><td>2019-03-04 00:00:00</td><td>3722.0</td><td>-10630.00%</td><td>372194.00%</td></tr><tr><td>2019-03-05 00:00:00</td><td>3838.0</td><td>11600.00%</td><td>383794.00%</td></tr><tr><td>2019-03-06 00:00:00</td><td>3871.05</td><td>3305.00%</td><td>387099.00%</td></tr><tr><td>2019-03-07 00:00:00</td><td>3873.17</td><td>212.00%</td><td>387311.00%</td></tr><tr><td>2019-03-08 00:00:00</td><td>3862.423</td><td>-1074.70%</td><td>386236.30%</td></tr><tr><td>2019-03-09 00:00:00</td><td>3927.1748</td><td>6475.18%</td><td>392711.48%</td></tr><tr><td>2019-03-10 00:00:00</td><td>3920.537</td><td>-663.78%</td><td>392047.70%</td></tr><tr><td>2019-03-11 00:00:00</td><td>3872.5066</td><td>-4803.04%</td><td>387244.66%</td></tr><tr><td>2019-03-12 00:00:00</td><td>3882.4272</td><td>992.06%</td><td>388236.72%</td></tr><tr><td>2019-03-13 00:00:00</td><td>3868.1091</td><td>-1431.81%</td><td>386804.91%</td></tr><tr><td>2019-03-14 00:00:00</td><td>3877.8809</td><td>977.18%</td><td>387782.09%</td></tr><tr><td>2019-03-15 00:00:00</td><td>3924.6606</td><td>4677.97%</td><td>392460.06%</td></tr><tr><td>2019-03-16 00:00:00</td><td>4005.9946</td><td>8133.40%</td><td>400593.46%</td></tr><tr><td>2019-03-17 00:00:00</td><td>3979.052</td><td>-2694.26%</td><td>397899.20%</td></tr><tr><td>2019-03-18 00:00:00</td><td>3984.0051</td><td>495.31%</td><td>398394.51%</td></tr><tr><td>2019-03-19 00:00:00</td><td>4014.275</td><td>3026.99%</td><td>401421.50%</td></tr><tr><td>2019-03-20 00:00:00</td><td>4054.9812</td><td>4070.62%</td><td>405492.12%</td></tr><tr><td>2019-03-21 00:00:00</td><td>3980.7412</td><td>-7424.00%</td><td>398068.12%</td></tr><tr><td>2019-03-22 00:00:00</td><td>3989.1584</td><td>841.72%</td><td>398909.84%</td></tr><tr><td>2019-03-23 00:00:00</td><td>4007.369</td><td>1821.06%</td><td>400730.90%</td></tr><tr><td>2019-03-24 00:00:00</td><td>3991.1096</td><td>-1625.94%</td><td>399104.96%</td></tr><tr><td>2019-03-25 00:00:00</td><td>3928.5308</td><td>-6257.88%</td><td>392847.08%</td></tr><tr><td>2019-03-26 00:00:00</td><td>3943.3235</td><td>1479.27%</td><td>394326.35%</td></tr><tr><td>2019-03-27 00:00:00</td><td>4033.7576</td><td>9043.41%</td><td>403369.76%</td></tr><tr><td>2019-03-28 00:00:00</td><td>4028.5127</td><td>-524.49%</td><td>402845.27%</td></tr><tr><td>2019-03-29 00:00:00</td><td>4101.1006</td><td>7258.79%</td><td>410104.06%</td></tr><tr><td>2019-03-30 00:00:00</td><td>4118.0386</td><td>1693.80%</td><td>411797.86%</td></tr><tr><td>2019-03-31 00:00:00</td><td>4101.1143</td><td>-1692.43%</td><td>410105.43%</td></tr>
+    </table>
+
+
+    <!-- PREVIOS BUTTON -->
+    <a class="previous" href="https://0xlino.github.io/bitcoinovertime/pages/2019-02.html">Prev</a>
+    <!-- NEXT BUTTON -->
+    <a class="next" href="https://0xlino.github.io/bitcoinovertime/pages/2019-04.html">Next</a>
+</body>
+
+</html>

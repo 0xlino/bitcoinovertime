@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #customers {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #customers td,
+        #customers th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #customers tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #customers tr:hover {
+            background-color: #ddd;
+        }
+
+        #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #04AA6D;
+            color: white;
+        }
+    </style>
+
+    <style>
+        a {
+            text-decoration: none;
+            display: inline-block;
+            padding: 8px 16px;
+        }
+
+        a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .previous {
+            background-color: #f1f1f1;
+            color: black;
+        }
+
+        .next {
+            background-color: #04AA6D;
+            color: white;
+        }
+
+        .round {
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <table id="customers">
+        <tr>
+            <th>Date</th>
+            <th>Price</th>
+            <th>Change</th>
+            <th>Since start</th>
+        </tr>
+        <tr><td>2020-03-01 00:00:00</td><td>8555.23</td><td>nan%</td><td>855517.00%</td></tr><tr><td>2020-03-02 00:00:00</td><td>8905.88</td><td>35065.00%</td><td>890582.00%</td></tr><tr><td>2020-03-03 00:00:00</td><td>8752.8</td><td>-15308.00%</td><td>875274.00%</td></tr><tr><td>2020-03-04 00:00:00</td><td>8757.51</td><td>471.00%</td><td>875745.00%</td></tr><tr><td>2020-03-05 00:00:00</td><td>9047.88</td><td>29037.00%</td><td>904782.00%</td></tr><tr><td>2020-03-06 00:00:00</td><td>9135.85</td><td>8797.00%</td><td>913579.00%</td></tr><tr><td>2020-03-07 00:00:00</td><td>8902.2</td><td>-23365.00%</td><td>890214.00%</td></tr><tr><td>2020-03-08 00:00:00</td><td>8126.33</td><td>-77587.00%</td><td>812627.00%</td></tr><tr><td>2020-03-09 00:00:00</td><td>7954.51</td><td>-17182.00%</td><td>795445.00%</td></tr><tr><td>2020-03-10 00:00:00</td><td>7906.73</td><td>-4778.00%</td><td>790667.00%</td></tr><tr><td>2020-03-11 00:00:00</td><td>7935.52</td><td>2879.00%</td><td>793546.00%</td></tr><tr><td>2020-03-12 00:00:00</td><td>5142.99</td><td>-279253.00%</td><td>514293.00%</td></tr><tr><td>2020-03-13 00:00:00</td><td>5461.54</td><td>31855.00%</td><td>546148.00%</td></tr><tr><td>2020-03-14 00:00:00</td><td>5171.15</td><td>-29039.00%</td><td>517109.00%</td></tr><tr><td>2020-03-15 00:00:00</td><td>5397.93</td><td>22678.00%</td><td>539787.00%</td></tr><tr><td>2020-03-16 00:00:00</td><td>5032.5</td><td>-36543.00%</td><td>503244.00%</td></tr><tr><td>2020-03-17 00:00:00</td><td>5389.42</td><td>35692.00%</td><td>538936.00%</td></tr><tr><td>2020-03-18 00:00:00</td><td>5368.04</td><td>-2138.00%</td><td>536798.00%</td></tr><tr><td>2020-03-19 00:00:00</td><td>6225.09</td><td>85705.00%</td><td>622503.00%</td></tr><tr><td>2020-03-20 00:00:00</td><td>6168.54</td><td>-5655.00%</td><td>616848.00%</td></tr><tr><td>2020-03-21 00:00:00</td><td>6145.77</td><td>-2277.00%</td><td>614571.00%</td></tr><tr><td>2020-03-22 00:00:00</td><td>5937.38</td><td>-20839.00%</td><td>593732.00%</td></tr><tr><td>2020-03-23 00:00:00</td><td>6469.06</td><td>53168.00%</td><td>646900.00%</td></tr><tr><td>2020-03-24 00:00:00</td><td>6730.17</td><td>26111.00%</td><td>673011.00%</td></tr><tr><td>2020-03-25 00:00:00</td><td>6701.07</td><td>-2910.00%</td><td>670101.00%</td></tr><tr><td>2020-03-26 00:00:00</td><td>6765.56</td><td>6449.00%</td><td>676550.00%</td></tr><tr><td>2020-03-27 00:00:00</td><td>6397.83</td><td>-36773.00%</td><td>639777.00%</td></tr><tr><td>2020-03-28 00:00:00</td><td>6268.65</td><td>-12918.00%</td><td>626859.00%</td></tr><tr><td>2020-03-29 00:00:00</td><td>5915.34</td><td>-35331.00%</td><td>591528.00%</td></tr><tr><td>2020-03-30 00:00:00</td><td>6403.14</td><td>48780.00%</td><td>640308.00%</td></tr><tr><td>2020-03-31 00:00:00</td><td>6435.16</td><td>3202.00%</td><td>643510.00%</td></tr>
+    </table>
+
+
+    <!-- PREVIOS BUTTON -->
+    <a class="previous" href="https://0xlino.github.io/bitcoinovertime/pages/2020-02.html">Prev</a>
+    <!-- NEXT BUTTON -->
+    <a class="next" href="https://0xlino.github.io/bitcoinovertime/pages/2020-04.html">Next</a>
+</body>
+
+</html>

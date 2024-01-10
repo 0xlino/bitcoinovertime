@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #customers {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #customers td,
+        #customers th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #customers tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #customers tr:hover {
+            background-color: #ddd;
+        }
+
+        #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #04AA6D;
+            color: white;
+        }
+    </style>
+
+    <style>
+        a {
+            text-decoration: none;
+            display: inline-block;
+            padding: 8px 16px;
+        }
+
+        a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .previous {
+            background-color: #f1f1f1;
+            color: black;
+        }
+
+        .next {
+            background-color: #04AA6D;
+            color: white;
+        }
+
+        .round {
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <table id="customers">
+        <tr>
+            <th>Date</th>
+            <th>Price</th>
+            <th>Change</th>
+            <th>Since start</th>
+        </tr>
+        <tr><td>2015-11-01 00:00:00</td><td>318.74</td><td>nan%</td><td>31868.00%</td></tr><tr><td>2015-11-02 00:00:00</td><td>336.06</td><td>1732.00%</td><td>33600.00%</td></tr><tr><td>2015-11-03 00:00:00</td><td>382.99</td><td>4693.00%</td><td>38293.00%</td></tr><tr><td>2015-11-04 00:00:00</td><td>447.05</td><td>6406.00%</td><td>44699.00%</td></tr><tr><td>2015-11-05 00:00:00</td><td>400.66</td><td>-4639.00%</td><td>40060.00%</td></tr><tr><td>2015-11-06 00:00:00</td><td>372.65</td><td>-2801.00%</td><td>37259.00%</td></tr><tr><td>2015-11-07 00:00:00</td><td>384.5</td><td>1185.00%</td><td>38444.00%</td></tr><tr><td>2015-11-08 00:00:00</td><td>383.67</td><td>-83.00%</td><td>38361.00%</td></tr><tr><td>2015-11-09 00:00:00</td><td>376.16</td><td>-751.00%</td><td>37610.00%</td></tr><tr><td>2015-11-10 00:00:00</td><td>366.71</td><td>-945.00%</td><td>36665.00%</td></tr><tr><td>2015-11-11 00:00:00</td><td>316.65</td><td>-5006.00%</td><td>31659.00%</td></tr><tr><td>2015-11-12 00:00:00</td><td>328.21</td><td>1156.00%</td><td>32815.00%</td></tr><tr><td>2015-11-13 00:00:00</td><td>334.54</td><td>633.00%</td><td>33448.00%</td></tr><tr><td>2015-11-14 00:00:00</td><td>334.98</td><td>44.00%</td><td>33492.00%</td></tr><tr><td>2015-11-15 00:00:00</td><td>329.09</td><td>-589.00%</td><td>32903.00%</td></tr><tr><td>2015-11-16 00:00:00</td><td>322.52</td><td>-657.00%</td><td>32246.00%</td></tr><tr><td>2015-11-17 00:00:00</td><td>335.43</td><td>1291.00%</td><td>33537.00%</td></tr><tr><td>2015-11-18 00:00:00</td><td>335.34</td><td>-9.00%</td><td>33528.00%</td></tr><tr><td>2015-11-19 00:00:00</td><td>332.58</td><td>-276.00%</td><td>33252.00%</td></tr><tr><td>2015-11-20 00:00:00</td><td>320.96</td><td>-1162.00%</td><td>32090.00%</td></tr><tr><td>2015-11-21 00:00:00</td><td>326.23</td><td>527.00%</td><td>32617.00%</td></tr><tr><td>2015-11-22 00:00:00</td><td>325.78</td><td>-45.00%</td><td>32572.00%</td></tr><tr><td>2015-11-23 00:00:00</td><td>324.43</td><td>-135.00%</td><td>32437.00%</td></tr><tr><td>2015-11-24 00:00:00</td><td>323.65</td><td>-78.00%</td><td>32359.00%</td></tr><tr><td>2015-11-25 00:00:00</td><td>324.54</td><td>89.00%</td><td>32448.00%</td></tr><tr><td>2015-11-26 00:00:00</td><td>343.4</td><td>1886.00%</td><td>34334.00%</td></tr><tr><td>2015-11-27 00:00:00</td><td>355.99</td><td>1259.00%</td><td>35593.00%</td></tr><tr><td>2015-11-28 00:00:00</td><td>356.51</td><td>52.00%</td><td>35645.00%</td></tr><tr><td>2015-11-29 00:00:00</td><td>362.35</td><td>584.00%</td><td>36229.00%</td></tr><tr><td>2015-11-30 00:00:00</td><td>376.91</td><td>1456.00%</td><td>37685.00%</td></tr>
+    </table>
+
+
+    <!-- PREVIOS BUTTON -->
+    <a class="previous" href="https://0xlino.github.io/bitcoinovertime/pages/2015-10.html">Prev</a>
+    <!-- NEXT BUTTON -->
+    <a class="next" href="https://0xlino.github.io/bitcoinovertime/pages/2015-12.html">Next</a>
+</body>
+
+</html>
