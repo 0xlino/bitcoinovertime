@@ -1,3 +1,5 @@
+Percentage increase since beginning 4,207,994.00%
+
 - [2010-08](https://0xlino.github.io/betterovertime/pages/2010-08.html)
 - [2010-09](https://0xlino.github.io/betterovertime/pages/2010-09.html)
 - [2010-10](https://0xlino.github.io/betterovertime/pages/2010-10.html)
