@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #customers {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #customers td,
+        #customers th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #customers tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #customers tr:hover {
+            background-color: #ddd;
+        }
+
+        #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #04AA6D;
+            color: white;
+        }
+    </style>
+
+    <style>
+        a {
+            text-decoration: none;
+            display: inline-block;
+            padding: 8px 16px;
+        }
+
+        a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .previous {
+            background-color: #f1f1f1;
+            color: black;
+        }
+
+        .next {
+            background-color: #04AA6D;
+            color: white;
+        }
+
+        .round {
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <table id="customers">
+        <tr>
+            <th>Date</th>
+            <th>Price</th>
+            <th>Change</th>
+            <th>Since start</th>
+        </tr>
+        <tr><td>2016-09-01</td><td>574.01</td><td>nan%</td><td>57395.00%</td></tr><tr><td>2016-09-02</td><td>573.74</td><td>-27.00%</td><td>57368.00%</td></tr><tr><td>2016-09-03</td><td>579.59</td><td>585.00%</td><td>57953.00%</td></tr><tr><td>2016-09-04</td><td>603.1</td><td>2351.00%</td><td>60304.00%</td></tr><tr><td>2016-09-05</td><td>606.24</td><td>314.00%</td><td>60618.00%</td></tr><tr><td>2016-09-06</td><td>609.13</td><td>289.00%</td><td>60907.00%</td></tr><tr><td>2016-09-07</td><td>613.11</td><td>398.00%</td><td>61305.00%</td></tr><tr><td>2016-09-08</td><td>623.17</td><td>1006.00%</td><td>62311.00%</td></tr><tr><td>2016-09-09</td><td>624.54</td><td>137.00%</td><td>62448.00%</td></tr><tr><td>2016-09-10</td><td>625.21</td><td>67.00%</td><td>62515.00%</td></tr><tr><td>2016-09-11</td><td>622.25</td><td>-296.00%</td><td>62219.00%</td></tr><tr><td>2016-09-12</td><td>608.49</td><td>-1376.00%</td><td>60843.00%</td></tr><tr><td>2016-09-13</td><td>610.01</td><td>152.00%</td><td>60995.00%</td></tr><tr><td>2016-09-14</td><td>611.66</td><td>165.00%</td><td>61160.00%</td></tr><tr><td>2016-09-15</td><td>611.2</td><td>-46.00%</td><td>61114.00%</td></tr><tr><td>2016-09-16</td><td>609.89</td><td>-131.00%</td><td>60983.00%</td></tr><tr><td>2016-09-17</td><td>609.32</td><td>-57.00%</td><td>60926.00%</td></tr><tr><td>2016-09-18</td><td>610.13</td><td>81.00%</td><td>61007.00%</td></tr><tr><td>2016-09-19</td><td>611.18</td><td>105.00%</td><td>61112.00%</td></tr><tr><td>2016-09-20</td><td>610.18</td><td>-100.00%</td><td>61012.00%</td></tr><tr><td>2016-09-21</td><td>598.94</td><td>-1124.00%</td><td>59888.00%</td></tr><tr><td>2016-09-22</td><td>598.7</td><td>-24.00%</td><td>59864.00%</td></tr><tr><td>2016-09-23</td><td>601.05</td><td>235.00%</td><td>60099.00%</td></tr><tr><td>2016-09-24</td><td>605.22</td><td>417.00%</td><td>60516.00%</td></tr><tr><td>2016-09-25</td><td>603.65</td><td>-157.00%</td><td>60359.00%</td></tr><tr><td>2016-09-26</td><td>606.08</td><td>243.00%</td><td>60602.00%</td></tr><tr><td>2016-09-27</td><td>608.2</td><td>212.00%</td><td>60814.00%</td></tr><tr><td>2016-09-28</td><td>607.34</td><td>-86.00%</td><td>60728.00%</td></tr><tr><td>2016-09-29</td><td>607.18</td><td>-16.00%</td><td>60712.00%</td></tr><tr><td>2016-09-30</td><td>607.31</td><td>13.00%</td><td>60725.00%</td></tr>
+    </table>
+
+
+    <!-- PREVIOS BUTTON -->
+    <a class="previous" href="{{prev_page}}">Prev</a>
+    <!-- NEXT BUTTON -->
+    <a class="next" href="2016-10.html">Next</a>
+</body>
+
+</html>

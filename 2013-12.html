@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #customers {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #customers td,
+        #customers th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #customers tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #customers tr:hover {
+            background-color: #ddd;
+        }
+
+        #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #04AA6D;
+            color: white;
+        }
+    </style>
+
+    <style>
+        a {
+            text-decoration: none;
+            display: inline-block;
+            padding: 8px 16px;
+        }
+
+        a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .previous {
+            background-color: #f1f1f1;
+            color: black;
+        }
+
+        .next {
+            background-color: #04AA6D;
+            color: white;
+        }
+
+        .round {
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <table id="customers">
+        <tr>
+            <th>Date</th>
+            <th>Price</th>
+            <th>Change</th>
+            <th>Since start</th>
+        </tr>
+        <tr><td>2013-12-01</td><td>1034.48</td><td>nan%</td><td>103442.00%</td></tr><tr><td>2013-12-02</td><td>1047.9</td><td>1342.00%</td><td>104784.00%</td></tr><tr><td>2013-12-03</td><td>1090.4</td><td>4250.00%</td><td>109034.00%</td></tr><tr><td>2013-12-04</td><td>972.6</td><td>-11780.00%</td><td>97254.00%</td></tr><tr><td>2013-12-05</td><td>1017.03</td><td>4443.00%</td><td>101697.00%</td></tr><tr><td>2013-12-06</td><td>683.44</td><td>-33359.00%</td><td>68338.00%</td></tr><tr><td>2013-12-07</td><td>793.24</td><td>10980.00%</td><td>79318.00%</td></tr><tr><td>2013-12-08</td><td>892.2</td><td>9896.00%</td><td>89214.00%</td></tr><tr><td>2013-12-09</td><td>934.58</td><td>4238.00%</td><td>93452.00%</td></tr><tr><td>2013-12-10</td><td>941.63</td><td>705.00%</td><td>94157.00%</td></tr><tr><td>2013-12-11</td><td>880.86</td><td>-6077.00%</td><td>88080.00%</td></tr><tr><td>2013-12-12</td><td>922.68</td><td>4182.00%</td><td>92262.00%</td></tr><tr><td>2013-12-13</td><td>888.69</td><td>-3399.00%</td><td>88863.00%</td></tr><tr><td>2013-12-14</td><td>835.08</td><td>-5361.00%</td><td>83502.00%</td></tr><tr><td>2013-12-15</td><td>812.61</td><td>-2247.00%</td><td>81255.00%</td></tr><tr><td>2013-12-16</td><td>682.05</td><td>-13056.00%</td><td>68199.00%</td></tr><tr><td>2013-12-17</td><td>480.0</td><td>-20205.00%</td><td>47994.00%</td></tr><tr><td>2013-12-18</td><td>586.67</td><td>10667.00%</td><td>58661.00%</td></tr><tr><td>2013-12-19</td><td>675.37</td><td>8870.00%</td><td>67531.00%</td></tr><tr><td>2013-12-20</td><td>613.65</td><td>-6172.00%</td><td>61359.00%</td></tr><tr><td>2013-12-21</td><td>635.8</td><td>2215.00%</td><td>63574.00%</td></tr><tr><td>2013-12-22</td><td>627.64</td><td>-816.00%</td><td>62758.00%</td></tr><tr><td>2013-12-23</td><td>649.26</td><td>2162.00%</td><td>64920.00%</td></tr><tr><td>2013-12-24</td><td>658.45</td><td>919.00%</td><td>65839.00%</td></tr><tr><td>2013-12-25</td><td>699.69</td><td>4124.00%</td><td>69963.00%</td></tr><tr><td>2013-12-26</td><td>745.22</td><td>4553.00%</td><td>74516.00%</td></tr><tr><td>2013-12-27</td><td>730.17</td><td>-1505.00%</td><td>73011.00%</td></tr><tr><td>2013-12-28</td><td>715.06</td><td>-1511.00%</td><td>71500.00%</td></tr><tr><td>2013-12-29</td><td>733.41</td><td>1835.00%</td><td>73335.00%</td></tr><tr><td>2013-12-30</td><td>730.04</td><td>-337.00%</td><td>72998.00%</td></tr><tr><td>2013-12-31</td><td>749.09</td><td>1905.00%</td><td>74903.00%</td></tr>
+    </table>
+
+
+    <!-- PREVIOS BUTTON -->
+    <a class="previous" href="{{prev_page}}">Prev</a>
+    <!-- NEXT BUTTON -->
+    <a class="next" href="2014-01.html">Next</a>
+</body>
+
+</html>

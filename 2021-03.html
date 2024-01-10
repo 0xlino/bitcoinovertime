@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #customers {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #customers td,
+        #customers th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #customers tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #customers tr:hover {
+            background-color: #ddd;
+        }
+
+        #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #04AA6D;
+            color: white;
+        }
+    </style>
+
+    <style>
+        a {
+            text-decoration: none;
+            display: inline-block;
+            padding: 8px 16px;
+        }
+
+        a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .previous {
+            background-color: #f1f1f1;
+            color: black;
+        }
+
+        .next {
+            background-color: #04AA6D;
+            color: white;
+        }
+
+        .round {
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <table id="customers">
+        <tr>
+            <th>Date</th>
+            <th>Price</th>
+            <th>Change</th>
+            <th>Since start</th>
+        </tr>
+        <tr><td>2021-03-01</td><td>50045.0</td><td>nan%</td><td>5004494.00%</td></tr><tr><td>2021-03-02</td><td>48532.0</td><td>-151300.00%</td><td>4853194.00%</td></tr><tr><td>2021-03-03</td><td>50202.0</td><td>167000.00%</td><td>5020194.00%</td></tr><tr><td>2021-03-04</td><td>47973.0</td><td>-222900.00%</td><td>4797294.00%</td></tr><tr><td>2021-03-05</td><td>49092.0</td><td>111900.00%</td><td>4909194.00%</td></tr><tr><td>2021-03-06</td><td>49178.0</td><td>8600.00%</td><td>4917794.00%</td></tr><tr><td>2021-03-07</td><td>51313.0</td><td>213500.00%</td><td>5131294.00%</td></tr><tr><td>2021-03-08</td><td>52487.0</td><td>117400.00%</td><td>5248694.00%</td></tr><tr><td>2021-03-09</td><td>54964.0</td><td>247700.00%</td><td>5496394.00%</td></tr><tr><td>2021-03-10</td><td>56062.0</td><td>109800.00%</td><td>5606194.00%</td></tr><tr><td>2021-03-11</td><td>57900.0</td><td>183800.00%</td><td>5789994.00%</td></tr><tr><td>2021-03-12</td><td>57166.0</td><td>-73400.00%</td><td>5716594.00%</td></tr><tr><td>2021-03-13</td><td>61200.0</td><td>403400.00%</td><td>6119994.00%</td></tr><tr><td>2021-03-14</td><td>59136.0</td><td>-206400.00%</td><td>5913594.00%</td></tr><tr><td>2021-03-15</td><td>55861.0</td><td>-327500.00%</td><td>5586094.00%</td></tr><tr><td>2021-03-16</td><td>57141.0</td><td>128000.00%</td><td>5714094.00%</td></tr><tr><td>2021-03-17</td><td>59384.0</td><td>224300.00%</td><td>5938394.00%</td></tr><tr><td>2021-03-18</td><td>57582.0</td><td>-180200.00%</td><td>5758194.00%</td></tr><tr><td>2021-03-19</td><td>58290.0</td><td>70800.00%</td><td>5828994.00%</td></tr><tr><td>2021-03-20</td><td>58122.0</td><td>-16800.00%</td><td>5812194.00%</td></tr><tr><td>2021-03-21</td><td>57300.0</td><td>-82200.00%</td><td>5729994.00%</td></tr><tr><td>2021-03-22</td><td>54404.0</td><td>-289600.00%</td><td>5440394.00%</td></tr><tr><td>2021-03-23</td><td>53893.0</td><td>-51100.00%</td><td>5389294.00%</td></tr><tr><td>2021-03-24</td><td>52353.0</td><td>-154000.00%</td><td>5235294.00%</td></tr><tr><td>2021-03-25</td><td>51962.0</td><td>-39100.00%</td><td>5196194.00%</td></tr><tr><td>2021-03-26</td><td>55349.0</td><td>338700.00%</td><td>5534894.00%</td></tr><tr><td>2021-03-27</td><td>55839.0</td><td>49000.00%</td><td>5583894.00%</td></tr><tr><td>2021-03-28</td><td>55857.0</td><td>1800.00%</td><td>5585694.00%</td></tr><tr><td>2021-03-29</td><td>57662.0</td><td>180500.00%</td><td>5766194.00%</td></tr><tr><td>2021-03-30</td><td>58853.0</td><td>119100.00%</td><td>5885294.00%</td></tr><tr><td>2021-03-31</td><td>58725.0</td><td>-12800.00%</td><td>5872494.00%</td></tr>
+    </table>
+
+
+    <!-- PREVIOS BUTTON -->
+    <a class="previous" href="{{prev_page}}">Prev</a>
+    <!-- NEXT BUTTON -->
+    <a class="next" href="2021-04.html">Next</a>
+</body>
+
+</html>

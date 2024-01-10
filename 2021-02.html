@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #customers {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #customers td,
+        #customers th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #customers tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #customers tr:hover {
+            background-color: #ddd;
+        }
+
+        #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #04AA6D;
+            color: white;
+        }
+    </style>
+
+    <style>
+        a {
+            text-decoration: none;
+            display: inline-block;
+            padding: 8px 16px;
+        }
+
+        a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .previous {
+            background-color: #f1f1f1;
+            color: black;
+        }
+
+        .next {
+            background-color: #04AA6D;
+            color: white;
+        }
+
+        .round {
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <table id="customers">
+        <tr>
+            <th>Date</th>
+            <th>Price</th>
+            <th>Change</th>
+            <th>Since start</th>
+        </tr>
+        <tr><td>2021-02-01</td><td>33423.0</td><td>nan%</td><td>3342294.00%</td></tr><tr><td>2021-02-02</td><td>35486.0</td><td>206300.00%</td><td>3548594.00%</td></tr><tr><td>2021-02-03</td><td>37809.0</td><td>232300.00%</td><td>3780894.00%</td></tr><tr><td>2021-02-04</td><td>36845.0</td><td>-96400.00%</td><td>3684494.00%</td></tr><tr><td>2021-02-05</td><td>38373.0</td><td>152800.00%</td><td>3837294.00%</td></tr><tr><td>2021-02-06</td><td>39282.0</td><td>90900.00%</td><td>3928194.00%</td></tr><tr><td>2021-02-07</td><td>38779.0</td><td>-50300.00%</td><td>3877894.00%</td></tr><tr><td>2021-02-08</td><td>46503.0</td><td>772400.00%</td><td>4650294.00%</td></tr><tr><td>2021-02-09</td><td>46567.0</td><td>6400.00%</td><td>4656694.00%</td></tr><tr><td>2021-02-10</td><td>44639.0</td><td>-192800.00%</td><td>4463894.00%</td></tr><tr><td>2021-02-11</td><td>47927.0</td><td>328800.00%</td><td>4792694.00%</td></tr><tr><td>2021-02-12</td><td>47414.0</td><td>-51300.00%</td><td>4741394.00%</td></tr><tr><td>2021-02-13</td><td>46941.0</td><td>-47300.00%</td><td>4694094.00%</td></tr><tr><td>2021-02-14</td><td>48824.0</td><td>188300.00%</td><td>4882394.00%</td></tr><tr><td>2021-02-15</td><td>47701.0</td><td>-112300.00%</td><td>4770094.00%</td></tr><tr><td>2021-02-16</td><td>49238.0</td><td>153700.00%</td><td>4923794.00%</td></tr><tr><td>2021-02-17</td><td>52354.0</td><td>311600.00%</td><td>5235394.00%</td></tr><tr><td>2021-02-18</td><td>51727.0</td><td>-62700.00%</td><td>5172694.00%</td></tr><tr><td>2021-02-19</td><td>56084.0</td><td>435700.00%</td><td>5608394.00%</td></tr><tr><td>2021-02-20</td><td>55926.0</td><td>-15800.00%</td><td>5592594.00%</td></tr><tr><td>2021-02-21</td><td>57064.0</td><td>113800.00%</td><td>5706394.00%</td></tr><tr><td>2021-02-22</td><td>54304.0</td><td>-276000.00%</td><td>5430394.00%</td></tr><tr><td>2021-02-23</td><td>48963.0</td><td>-534100.00%</td><td>4896294.00%</td></tr><tr><td>2021-02-24</td><td>49849.0</td><td>88600.00%</td><td>4984894.00%</td></tr><tr><td>2021-02-25</td><td>46937.0</td><td>-291200.00%</td><td>4693694.00%</td></tr><tr><td>2021-02-26</td><td>46551.0</td><td>-38600.00%</td><td>4655094.00%</td></tr><tr><td>2021-02-27</td><td>46223.0</td><td>-32800.00%</td><td>4622294.00%</td></tr><tr><td>2021-02-28</td><td>46799.0</td><td>57600.00%</td><td>4679894.00%</td></tr>
+    </table>
+
+
+    <!-- PREVIOS BUTTON -->
+    <a class="previous" href="{{prev_page}}">Prev</a>
+    <!-- NEXT BUTTON -->
+    <a class="next" href="2021-03.html">Next</a>
+</body>
+
+</html>

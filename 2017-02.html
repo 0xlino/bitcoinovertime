@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #customers {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #customers td,
+        #customers th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #customers tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #customers tr:hover {
+            background-color: #ddd;
+        }
+
+        #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #04AA6D;
+            color: white;
+        }
+    </style>
+
+    <style>
+        a {
+            text-decoration: none;
+            display: inline-block;
+            padding: 8px 16px;
+        }
+
+        a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .previous {
+            background-color: #f1f1f1;
+            color: black;
+        }
+
+        .next {
+            background-color: #04AA6D;
+            color: white;
+        }
+
+        .round {
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <table id="customers">
+        <tr>
+            <th>Date</th>
+            <th>Price</th>
+            <th>Change</th>
+            <th>Since start</th>
+        </tr>
+        <tr><td>2017-02-01</td><td>976.67</td><td>nan%</td><td>97661.00%</td></tr><tr><td>2017-02-02</td><td>996.83</td><td>2016.00%</td><td>99677.00%</td></tr><tr><td>2017-02-03</td><td>1023.48</td><td>2665.00%</td><td>102342.00%</td></tr><tr><td>2017-02-04</td><td>1029.12</td><td>564.00%</td><td>102906.00%</td></tr><tr><td>2017-02-05</td><td>1033.79</td><td>467.00%</td><td>103373.00%</td></tr><tr><td>2017-02-06</td><td>1036.89</td><td>310.00%</td><td>103683.00%</td></tr><tr><td>2017-02-07</td><td>1053.92</td><td>1703.00%</td><td>105386.00%</td></tr><tr><td>2017-02-08</td><td>1063.32</td><td>940.00%</td><td>106326.00%</td></tr><tr><td>2017-02-09</td><td>1032.72</td><td>-3060.00%</td><td>103266.00%</td></tr><tr><td>2017-02-10</td><td>974.42</td><td>-5830.00%</td><td>97436.00%</td></tr><tr><td>2017-02-11</td><td>1001.7</td><td>2728.00%</td><td>100164.00%</td></tr><tr><td>2017-02-12</td><td>999.57</td><td>-213.00%</td><td>99951.00%</td></tr><tr><td>2017-02-13</td><td>993.83</td><td>-574.00%</td><td>99377.00%</td></tr><tr><td>2017-02-14</td><td>1001.26</td><td>743.00%</td><td>100120.00%</td></tr><tr><td>2017-02-15</td><td>1005.31</td><td>405.00%</td><td>100525.00%</td></tr><tr><td>2017-02-16</td><td>1021.04</td><td>1573.00%</td><td>102098.00%</td></tr><tr><td>2017-02-17</td><td>1040.05</td><td>1901.00%</td><td>103999.00%</td></tr><tr><td>2017-02-18</td><td>1056.5</td><td>1645.00%</td><td>105644.00%</td></tr><tr><td>2017-02-19</td><td>1051.2</td><td>-530.00%</td><td>105114.00%</td></tr><tr><td>2017-02-20</td><td>1054.29</td><td>309.00%</td><td>105423.00%</td></tr><tr><td>2017-02-21</td><td>1093.67</td><td>3938.00%</td><td>109361.00%</td></tr><tr><td>2017-02-22</td><td>1112.44</td><td>1877.00%</td><td>111238.00%</td></tr><tr><td>2017-02-23</td><td>1139.22</td><td>2678.00%</td><td>113916.00%</td></tr><tr><td>2017-02-24</td><td>1175.0</td><td>3578.00%</td><td>117494.00%</td></tr><tr><td>2017-02-25</td><td>1159.54</td><td>-1546.00%</td><td>115948.00%</td></tr><tr><td>2017-02-26</td><td>1154.02</td><td>-552.00%</td><td>115396.00%</td></tr><tr><td>2017-02-27</td><td>1172.75</td><td>1873.00%</td><td>117269.00%</td></tr><tr><td>2017-02-28</td><td>1179.77</td><td>702.00%</td><td>117971.00%</td></tr>
+    </table>
+
+
+    <!-- PREVIOS BUTTON -->
+    <a class="previous" href="{{prev_page}}">Prev</a>
+    <!-- NEXT BUTTON -->
+    <a class="next" href="2017-03.html">Next</a>
+</body>
+
+</html>

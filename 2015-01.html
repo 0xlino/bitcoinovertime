@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #customers {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #customers td,
+        #customers th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #customers tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #customers tr:hover {
+            background-color: #ddd;
+        }
+
+        #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #04AA6D;
+            color: white;
+        }
+    </style>
+
+    <style>
+        a {
+            text-decoration: none;
+            display: inline-block;
+            padding: 8px 16px;
+        }
+
+        a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .previous {
+            background-color: #f1f1f1;
+            color: black;
+        }
+
+        .next {
+            background-color: #04AA6D;
+            color: white;
+        }
+
+        .round {
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <table id="customers">
+        <tr>
+            <th>Date</th>
+            <th>Price</th>
+            <th>Change</th>
+            <th>Since start</th>
+        </tr>
+        <tr><td>2015-01-01</td><td>316.93</td><td>nan%</td><td>31687.00%</td></tr><tr><td>2015-01-02</td><td>316.03</td><td>-90.00%</td><td>31597.00%</td></tr><tr><td>2015-01-03</td><td>305.19</td><td>-1084.00%</td><td>30513.00%</td></tr><tr><td>2015-01-04</td><td>275.31</td><td>-2988.00%</td><td>27525.00%</td></tr><tr><td>2015-01-05</td><td>272.66</td><td>-265.00%</td><td>27260.00%</td></tr><tr><td>2015-01-06</td><td>277.86</td><td>520.00%</td><td>27780.00%</td></tr><tr><td>2015-01-07</td><td>289.06</td><td>1120.00%</td><td>28900.00%</td></tr><tr><td>2015-01-08</td><td>289.84</td><td>78.00%</td><td>28978.00%</td></tr><tr><td>2015-01-09</td><td>285.94</td><td>-390.00%</td><td>28588.00%</td></tr><tr><td>2015-01-10</td><td>281.27</td><td>-467.00%</td><td>28121.00%</td></tr><tr><td>2015-01-11</td><td>274.69</td><td>-658.00%</td><td>27463.00%</td></tr><tr><td>2015-01-12</td><td>270.42</td><td>-427.00%</td><td>27036.00%</td></tr><tr><td>2015-01-13</td><td>241.05</td><td>-2937.00%</td><td>24099.00%</td></tr><tr><td>2015-01-14</td><td>199.02</td><td>-4203.00%</td><td>19896.00%</td></tr><tr><td>2015-01-15</td><td>206.87</td><td>785.00%</td><td>20681.00%</td></tr><tr><td>2015-01-16</td><td>212.21</td><td>534.00%</td><td>21215.00%</td></tr><tr><td>2015-01-17</td><td>201.75</td><td>-1046.00%</td><td>20169.00%</td></tr><tr><td>2015-01-18</td><td>206.68</td><td>493.00%</td><td>20662.00%</td></tr><tr><td>2015-01-19</td><td>212.69</td><td>601.00%</td><td>21263.00%</td></tr><tr><td>2015-01-20</td><td>211.91</td><td>-78.00%</td><td>21185.00%</td></tr><tr><td>2015-01-21</td><td>215.91</td><td>400.00%</td><td>21585.00%</td></tr><tr><td>2015-01-22</td><td>232.3</td><td>1639.00%</td><td>23224.00%</td></tr><tr><td>2015-01-23</td><td>230.6</td><td>-170.00%</td><td>23054.00%</td></tr><tr><td>2015-01-24</td><td>238.2</td><td>760.00%</td><td>23814.00%</td></tr><tr><td>2015-01-25</td><td>248.82</td><td>1062.00%</td><td>24876.00%</td></tr><tr><td>2015-01-26</td><td>281.16</td><td>3234.00%</td><td>28110.00%</td></tr><tr><td>2015-01-27</td><td>261.64</td><td>-1952.00%</td><td>26158.00%</td></tr><tr><td>2015-01-28</td><td>253.42</td><td>-822.00%</td><td>25336.00%</td></tr><tr><td>2015-01-29</td><td>232.72</td><td>-2070.00%</td><td>23266.00%</td></tr><tr><td>2015-01-30</td><td>232.88</td><td>16.00%</td><td>23282.00%</td></tr><tr><td>2015-01-31</td><td>228.53</td><td>-435.00%</td><td>22847.00%</td></tr>
+    </table>
+
+
+    <!-- PREVIOS BUTTON -->
+    <a class="previous" href="{{prev_page}}">Prev</a>
+    <!-- NEXT BUTTON -->
+    <a class="next" href="2015-02.html">Next</a>
+</body>
+
+</html>

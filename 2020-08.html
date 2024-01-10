@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #customers {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #customers td,
+        #customers th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #customers tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #customers tr:hover {
+            background-color: #ddd;
+        }
+
+        #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #04AA6D;
+            color: white;
+        }
+    </style>
+
+    <style>
+        a {
+            text-decoration: none;
+            display: inline-block;
+            padding: 8px 16px;
+        }
+
+        a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .previous {
+            background-color: #f1f1f1;
+            color: black;
+        }
+
+        .next {
+            background-color: #04AA6D;
+            color: white;
+        }
+
+        .round {
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <table id="customers">
+        <tr>
+            <th>Date</th>
+            <th>Price</th>
+            <th>Change</th>
+            <th>Since start</th>
+        </tr>
+        <tr><td>2020-08-01</td><td>11817.34</td><td>nan%</td><td>1181728.00%</td></tr><tr><td>2020-08-02</td><td>11019.46</td><td>-79788.00%</td><td>1101940.00%</td></tr><tr><td>2020-08-03</td><td>11226.04</td><td>20658.00%</td><td>1122598.00%</td></tr><tr><td>2020-08-04</td><td>11196.79</td><td>-2925.00%</td><td>1119673.00%</td></tr><tr><td>2020-08-05</td><td>11774.94</td><td>57815.00%</td><td>1177488.00%</td></tr><tr><td>2020-08-06</td><td>11768.13</td><td>-681.00%</td><td>1176807.00%</td></tr><tr><td>2020-08-07</td><td>11597.34</td><td>-17079.00%</td><td>1159728.00%</td></tr><tr><td>2020-08-08</td><td>11763.93</td><td>16659.00%</td><td>1176387.00%</td></tr><tr><td>2020-08-09</td><td>11682.85</td><td>-8108.00%</td><td>1168279.00%</td></tr><tr><td>2020-08-10</td><td>11863.89</td><td>18104.00%</td><td>1186383.00%</td></tr><tr><td>2020-08-11</td><td>11400.57</td><td>-46332.00%</td><td>1140051.00%</td></tr><tr><td>2020-08-12</td><td>11588.72</td><td>18815.00%</td><td>1158866.00%</td></tr><tr><td>2020-08-13</td><td>11765.19</td><td>17647.00%</td><td>1176513.00%</td></tr><tr><td>2020-08-14</td><td>11825.44</td><td>6025.00%</td><td>1182538.00%</td></tr><tr><td>2020-08-15</td><td>11864.91</td><td>3947.00%</td><td>1186485.00%</td></tr><tr><td>2020-08-16</td><td>11831.68</td><td>-3323.00%</td><td>1183162.00%</td></tr><tr><td>2020-08-17</td><td>12272.81</td><td>44113.00%</td><td>1227275.00%</td></tr><tr><td>2020-08-18</td><td>11959.92</td><td>-31289.00%</td><td>1195986.00%</td></tr><tr><td>2020-08-19</td><td>11791.02</td><td>-16890.00%</td><td>1179096.00%</td></tr><tr><td>2020-08-20</td><td>11870.63</td><td>7961.00%</td><td>1187057.00%</td></tr><tr><td>2020-08-21</td><td>11521.22</td><td>-34941.00%</td><td>1152116.00%</td></tr><tr><td>2020-08-22</td><td>11676.39</td><td>15517.00%</td><td>1167633.00%</td></tr><tr><td>2020-08-23</td><td>11596.38</td><td>-8001.00%</td><td>1159632.00%</td></tr><tr><td>2020-08-24</td><td>11757.64</td><td>16126.00%</td><td>1175758.00%</td></tr><tr><td>2020-08-25</td><td>11296.45</td><td>-46119.00%</td><td>1129639.00%</td></tr><tr><td>2020-08-26</td><td>11457.81</td><td>16136.00%</td><td>1145775.00%</td></tr><tr><td>2020-08-27</td><td>11312.08</td><td>-14573.00%</td><td>1131202.00%</td></tr><tr><td>2020-08-28</td><td>11520.4</td><td>20832.00%</td><td>1152034.00%</td></tr><tr><td>2020-08-29</td><td>11470.84</td><td>-4956.00%</td><td>1147078.00%</td></tr><tr><td>2020-08-30</td><td>11701.0</td><td>23016.00%</td><td>1170094.00%</td></tr><tr><td>2020-08-31</td><td>11587.33</td><td>-11367.00%</td><td>1158727.00%</td></tr>
+    </table>
+
+
+    <!-- PREVIOS BUTTON -->
+    <a class="previous" href="{{prev_page}}">Prev</a>
+    <!-- NEXT BUTTON -->
+    <a class="next" href="2020-09.html">Next</a>
+</body>
+
+</html>
