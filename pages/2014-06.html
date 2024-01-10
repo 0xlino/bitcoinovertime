@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #customers {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #customers td,
+        #customers th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #customers tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #customers tr:hover {
+            background-color: #ddd;
+        }
+
+        #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #04AA6D;
+            color: white;
+        }
+    </style>
+
+    <style>
+        a {
+            text-decoration: none;
+            display: inline-block;
+            padding: 8px 16px;
+        }
+
+        a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .previous {
+            background-color: #f1f1f1;
+            color: black;
+        }
+
+        .next {
+            background-color: #04AA6D;
+            color: white;
+        }
+
+        .round {
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <table id="customers">
+        <tr>
+            <th>Date</th>
+            <th>Price</th>
+            <th>Change</th>
+            <th>Since start</th>
+        </tr>
+        <tr><td>2014-06-01</td><td>643.65</td><td>nan</td><td>64359.00%</td></tr><tr><td>2014-06-02</td><td>635.36</td><td>-8.29</td><td>63530.00%</td></tr><tr><td>2014-06-03</td><td>661.59</td><td>26.23</td><td>66153.00%</td></tr><tr><td>2014-06-04</td><td>641.84</td><td>-19.75</td><td>64178.00%</td></tr><tr><td>2014-06-05</td><td>651.47</td><td>9.63</td><td>65141.00%</td></tr><tr><td>2014-06-06</td><td>656.65</td><td>5.18</td><td>65659.00%</td></tr><tr><td>2014-06-07</td><td>652.93</td><td>-3.72</td><td>65287.00%</td></tr><tr><td>2014-06-08</td><td>656.19</td><td>3.26</td><td>65613.00%</td></tr><tr><td>2014-06-09</td><td>650.31</td><td>-5.88</td><td>65025.00%</td></tr><tr><td>2014-06-10</td><td>653.45</td><td>3.14</td><td>65339.00%</td></tr><tr><td>2014-06-11</td><td>646.29</td><td>-7.16</td><td>64623.00%</td></tr><tr><td>2014-06-12</td><td>625.34</td><td>-20.95</td><td>62528.00%</td></tr><tr><td>2014-06-13</td><td>599.54</td><td>-25.8</td><td>59948.00%</td></tr><tr><td>2014-06-14</td><td>580.01</td><td>-19.53</td><td>57995.00%</td></tr><tr><td>2014-06-15</td><td>568.08</td><td>-11.93</td><td>56802.00%</td></tr><tr><td>2014-06-16</td><td>597.64</td><td>29.56</td><td>59758.00%</td></tr><tr><td>2014-06-17</td><td>599.64</td><td>2.0</td><td>59958.00%</td></tr><tr><td>2014-06-18</td><td>610.22</td><td>10.58</td><td>61016.00%</td></tr><tr><td>2014-06-19</td><td>606.79</td><td>-3.43</td><td>60673.00%</td></tr><tr><td>2014-06-20</td><td>593.77</td><td>-13.02</td><td>59371.00%</td></tr><tr><td>2014-06-21</td><td>594.11</td><td>0.34</td><td>59405.00%</td></tr><tr><td>2014-06-22</td><td>601.94</td><td>7.83</td><td>60188.00%</td></tr><tr><td>2014-06-23</td><td>594.15</td><td>-7.79</td><td>59409.00%</td></tr><tr><td>2014-06-24</td><td>592.06</td><td>-2.09</td><td>59200.00%</td></tr><tr><td>2014-06-25</td><td>573.64</td><td>-18.42</td><td>57358.00%</td></tr><tr><td>2014-06-26</td><td>585.36</td><td>11.72</td><td>58530.00%</td></tr><tr><td>2014-06-27</td><td>598.83</td><td>13.47</td><td>59877.00%</td></tr><tr><td>2014-06-28</td><td>599.83</td><td>1.0</td><td>59977.00%</td></tr><tr><td>2014-06-29</td><td>599.38</td><td>-0.45</td><td>59932.00%</td></tr><tr><td>2014-06-30</td><td>621.19</td><td>21.81</td><td>62113.00%</td></tr>
+    </table>
+
+
+    <!-- PREVIOS BUTTON -->
+    <a class="previous" href="https://0xlino.github.io/bitcoinovertime/pages/2014-05.html">Prev</a>
+    <!-- NEXT BUTTON -->
+    <a class="next" href="https://0xlino.github.io/bitcoinovertime/pages/2014-07.html">Next</a>
+</body>
+
+</html>
