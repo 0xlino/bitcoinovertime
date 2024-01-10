@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #customers {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #customers td,
+        #customers th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #customers tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #customers tr:hover {
+            background-color: #ddd;
+        }
+
+        #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #04AA6D;
+            color: white;
+        }
+    </style>
+
+    <style>
+        a {
+            text-decoration: none;
+            display: inline-block;
+            padding: 8px 16px;
+        }
+
+        a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .previous {
+            background-color: #f1f1f1;
+            color: black;
+        }
+
+        .next {
+            background-color: #04AA6D;
+            color: white;
+        }
+
+        .round {
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <table id="customers">
+        <tr>
+            <th>Date</th>
+            <th>Price</th>
+            <th>Change</th>
+            <th>Since start</th>
+        </tr>
+        <tr><td>2014-10-01</td><td>385.55</td><td>nan</td><td>38549.00%</td></tr><tr><td>2014-10-02</td><td>380.45</td><td>-5.100000000000023</td><td>38039.00%</td></tr><tr><td>2014-10-03</td><td>370.39</td><td>-10.060000000000002</td><td>37033.00%</td></tr><tr><td>2014-10-04</td><td>347.85</td><td>-22.539999999999964</td><td>34779.00%</td></tr><tr><td>2014-10-05</td><td>317.85</td><td>-30.0</td><td>31779.00%</td></tr><tr><td>2014-10-06</td><td>325.42</td><td>7.569999999999993</td><td>32536.00%</td></tr><tr><td>2014-10-07</td><td>331.19</td><td>5.769999999999982</td><td>33113.00%</td></tr><tr><td>2014-10-08</td><td>338.96</td><td>7.769999999999982</td><td>33890.00%</td></tr><tr><td>2014-10-09</td><td>363.13</td><td>24.170000000000016</td><td>36307.00%</td></tr><tr><td>2014-10-10</td><td>363.19</td><td>0.060000000000002274</td><td>36313.00%</td></tr><tr><td>2014-10-11</td><td>361.15</td><td>-2.0400000000000205</td><td>36109.00%</td></tr><tr><td>2014-10-12</td><td>363.76</td><td>2.6100000000000136</td><td>36370.00%</td></tr><tr><td>2014-10-13</td><td>379.19</td><td>15.430000000000007</td><td>37913.00%</td></tr><tr><td>2014-10-14</td><td>402.04</td><td>22.850000000000023</td><td>40198.00%</td></tr><tr><td>2014-10-15</td><td>395.34</td><td>-6.7000000000000455</td><td>39528.00%</td></tr><tr><td>2014-10-16</td><td>388.03</td><td>-7.310000000000002</td><td>38797.00%</td></tr><tr><td>2014-10-17</td><td>381.0</td><td>-7.029999999999973</td><td>38094.00%</td></tr><tr><td>2014-10-18</td><td>386.69</td><td>5.689999999999998</td><td>38663.00%</td></tr><tr><td>2014-10-19</td><td>390.96</td><td>4.269999999999982</td><td>39090.00%</td></tr><tr><td>2014-10-20</td><td>384.3</td><td>-6.659999999999968</td><td>38424.00%</td></tr><tr><td>2014-10-21</td><td>386.61</td><td>2.3100000000000023</td><td>38655.00%</td></tr><tr><td>2014-10-22</td><td>385.39</td><td>-1.2200000000000273</td><td>38533.00%</td></tr><tr><td>2014-10-23</td><td>369.5</td><td>-15.889999999999986</td><td>36944.00%</td></tr><tr><td>2014-10-24</td><td>358.76</td><td>-10.740000000000009</td><td>35870.00%</td></tr><tr><td>2014-10-25</td><td>351.01</td><td>-7.75</td><td>35095.00%</td></tr><tr><td>2014-10-26</td><td>352.56</td><td>1.5500000000000114</td><td>35250.00%</td></tr><tr><td>2014-10-27</td><td>355.29</td><td>2.730000000000018</td><td>35523.00%</td></tr><tr><td>2014-10-28</td><td>357.15</td><td>1.8599999999999568</td><td>35709.00%</td></tr><tr><td>2014-10-29</td><td>348.1</td><td>-9.049999999999955</td><td>34804.00%</td></tr><tr><td>2014-10-30</td><td>339.5</td><td>-8.600000000000023</td><td>33944.00%</td></tr><tr><td>2014-10-31</td><td>342.38</td><td>2.8799999999999955</td><td>34232.00%</td></tr>
+    </table>
+
+
+    <!-- PREVIOS BUTTON -->
+    <a class="previous" href="https://0xlino.github.io/bitcoinovertime/pages/2014-09.html">Prev</a>
+    <!-- NEXT BUTTON -->
+    <a class="next" href="https://0xlino.github.io/bitcoinovertime/pages/2014-11.html">Next</a>
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #customers {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #customers td,
+        #customers th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #customers tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #customers tr:hover {
+            background-color: #ddd;
+        }
+
+        #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #04AA6D;
+            color: white;
+        }
+    </style>
+
+    <style>
+        a {
+            text-decoration: none;
+            display: inline-block;
+            padding: 8px 16px;
+        }
+
+        a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .previous {
+            background-color: #f1f1f1;
+            color: black;
+        }
+
+        .next {
+            background-color: #04AA6D;
+            color: white;
+        }
+
+        .round {
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <table id="customers">
+        <tr>
+            <th>Date</th>
+            <th>Price</th>
+            <th>Change</th>
+            <th>Since start</th>
+        </tr>
+        <tr><td>2013-07-01</td><td>89.03</td><td>nan</td><td>8897.00%</td></tr><tr><td>2013-07-02</td><td>88.13</td><td>-0.9000000000000057</td><td>8807.00%</td></tr><tr><td>2013-07-03</td><td>82.75</td><td>-5.3799999999999955</td><td>8269.00%</td></tr><tr><td>2013-07-04</td><td>77.9</td><td>-4.849999999999994</td><td>7784.00%</td></tr><tr><td>2013-07-05</td><td>70.82</td><td>-7.0800000000000125</td><td>7076.00%</td></tr><tr><td>2013-07-06</td><td>69.05</td><td>-1.769999999999996</td><td>6899.00%</td></tr><tr><td>2013-07-07</td><td>70.26</td><td>1.210000000000008</td><td>7020.00%</td></tr><tr><td>2013-07-08</td><td>76.0</td><td>5.739999999999995</td><td>7594.00%</td></tr><tr><td>2013-07-09</td><td>74.49</td><td>-1.5100000000000051</td><td>7443.00%</td></tr><tr><td>2013-07-10</td><td>81.09</td><td>6.6000000000000085</td><td>8103.00%</td></tr><tr><td>2013-07-11</td><td>86.41</td><td>5.319999999999993</td><td>8635.00%</td></tr><tr><td>2013-07-12</td><td>95.07</td><td>8.659999999999997</td><td>9501.00%</td></tr><tr><td>2013-07-13</td><td>91.8</td><td>-3.269999999999996</td><td>9174.00%</td></tr><tr><td>2013-07-14</td><td>93.97</td><td>2.1700000000000017</td><td>9391.00%</td></tr><tr><td>2013-07-15</td><td>96.51</td><td>2.5400000000000063</td><td>9645.00%</td></tr><tr><td>2013-07-16</td><td>95.2</td><td>-1.3100000000000023</td><td>9514.00%</td></tr><tr><td>2013-07-17</td><td>95.32</td><td>0.11999999999999034</td><td>9526.00%</td></tr><tr><td>2013-07-18</td><td>88.31</td><td>-7.009999999999991</td><td>8825.00%</td></tr><tr><td>2013-07-19</td><td>89.65</td><td>1.3400000000000034</td><td>8959.00%</td></tr><tr><td>2013-07-20</td><td>89.09</td><td>-0.5600000000000023</td><td>8903.00%</td></tr><tr><td>2013-07-21</td><td>87.78</td><td>-1.3100000000000023</td><td>8772.00%</td></tr><tr><td>2013-07-22</td><td>88.33</td><td>0.5499999999999972</td><td>8827.00%</td></tr><tr><td>2013-07-23</td><td>90.9</td><td>2.5700000000000074</td><td>9084.00%</td></tr><tr><td>2013-07-24</td><td>91.07</td><td>0.1699999999999875</td><td>9101.00%</td></tr><tr><td>2013-07-25</td><td>93.4</td><td>2.3300000000000125</td><td>9334.00%</td></tr><tr><td>2013-07-26</td><td>93.13</td><td>-0.27000000000001023</td><td>9307.00%</td></tr><tr><td>2013-07-27</td><td>92.72</td><td>-0.4099999999999966</td><td>9266.00%</td></tr><tr><td>2013-07-28</td><td>96.84</td><td>4.1200000000000045</td><td>9678.00%</td></tr><tr><td>2013-07-29</td><td>97.5</td><td>0.6599999999999966</td><td>9744.00%</td></tr><tr><td>2013-07-30</td><td>100.15</td><td>2.6500000000000057</td><td>10009.00%</td></tr><tr><td>2013-07-31</td><td>104.48</td><td>4.329999999999998</td><td>10442.00%</td></tr>
+    </table>
+
+
+    <!-- PREVIOS BUTTON -->
+    <a class="previous" href="https://0xlino.github.io/bitcoinovertime/pages/2013-06.html">Prev</a>
+    <!-- NEXT BUTTON -->
+    <a class="next" href="https://0xlino.github.io/bitcoinovertime/pages/2013-08.html">Next</a>
+</body>
+
+</html>
