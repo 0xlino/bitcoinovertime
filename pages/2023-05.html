@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #customers {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #customers td,
+        #customers th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #customers tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #customers tr:hover {
+            background-color: #ddd;
+        }
+
+        #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #04AA6D;
+            color: white;
+        }
+    </style>
+
+    <style>
+        a {
+            text-decoration: none;
+            display: inline-block;
+            padding: 8px 16px;
+        }
+
+        a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .previous {
+            background-color: #f1f1f1;
+            color: black;
+        }
+
+        .next {
+            background-color: #04AA6D;
+            color: white;
+        }
+
+        .round {
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <table id="customers">
+        <tr>
+            <th>Date</th>
+            <th>Price</th>
+            <th>Change</th>
+            <th>Since start</th>
+        </tr>
+        <tr><td>2023-05-01</td><td>28015.0</td><td>nan%</td><td>2801494.00%</td></tr><tr><td>2023-05-02</td><td>28676.0</td><td>66100.00%</td><td>2867594.00%</td></tr><tr><td>2023-05-03</td><td>29005.0</td><td>32900.00%</td><td>2900494.00%</td></tr><tr><td>2023-05-04</td><td>28855.0</td><td>-15000.00%</td><td>2885494.00%</td></tr><tr><td>2023-05-05</td><td>29524.0</td><td>66900.00%</td><td>2952394.00%</td></tr><tr><td>2023-05-06</td><td>28858.0</td><td>-66600.00%</td><td>2885794.00%</td></tr><tr><td>2023-05-07</td><td>28474.0</td><td>-38400.00%</td><td>2847394.00%</td></tr><tr><td>2023-05-08</td><td>27678.0</td><td>-79600.00%</td><td>2767794.00%</td></tr><tr><td>2023-05-09</td><td>27769.0</td><td>9100.00%</td><td>2776894.00%</td></tr><tr><td>2023-05-10</td><td>27619.0</td><td>-15000.00%</td><td>2761894.00%</td></tr><tr><td>2023-05-11</td><td>26997.0</td><td>-62200.00%</td><td>2699694.00%</td></tr><tr><td>2023-05-12</td><td>26797.0</td><td>-20000.00%</td><td>2679694.00%</td></tr><tr><td>2023-05-13</td><td>26786.0</td><td>-1100.00%</td><td>2678594.00%</td></tr><tr><td>2023-05-14</td><td>26929.0</td><td>14300.00%</td><td>2692894.00%</td></tr><tr><td>2023-05-15</td><td>27190.0</td><td>26100.00%</td><td>2718994.00%</td></tr><tr><td>2023-05-16</td><td>27026.0</td><td>-16400.00%</td><td>2702594.00%</td></tr><tr><td>2023-05-17</td><td>27386.0</td><td>36000.00%</td><td>2738594.00%</td></tr><tr><td>2023-05-18</td><td>26872.0</td><td>-51400.00%</td><td>2687194.00%</td></tr><tr><td>2023-05-19</td><td>26849.0</td><td>-2300.00%</td><td>2684894.00%</td></tr><tr><td>2023-05-20</td><td>27102.0</td><td>25300.00%</td><td>2710194.00%</td></tr><tr><td>2023-05-21</td><td>26754.0</td><td>-34800.00%</td><td>2675394.00%</td></tr><tr><td>2023-05-22</td><td>26862.0</td><td>10800.00%</td><td>2686194.00%</td></tr><tr><td>2023-05-23</td><td>27222.0</td><td>36000.00%</td><td>2722194.00%</td></tr><tr><td>2023-05-24</td><td>26350.0</td><td>-87200.00%</td><td>2634994.00%</td></tr><tr><td>2023-05-25</td><td>26475.0</td><td>12500.00%</td><td>2647494.00%</td></tr><tr><td>2023-05-26</td><td>26709.0</td><td>23400.00%</td><td>2670894.00%</td></tr><tr><td>2023-05-27</td><td>26848.0</td><td>13900.00%</td><td>2684794.00%</td></tr><tr><td>2023-05-28</td><td>28258.0</td><td>141000.00%</td><td>2825794.00%</td></tr><tr><td>2023-05-29</td><td>27741.0</td><td>-51700.00%</td><td>2774094.00%</td></tr><tr><td>2023-05-30</td><td>27691.0</td><td>-5000.00%</td><td>2769094.00%</td></tr><tr><td>2023-05-31</td><td>27248.0</td><td>-44300.00%</td><td>2724794.00%</td></tr>
+    </table>
+
+
+    <!-- PREVIOS BUTTON -->
+    <a class="previous" href="https://0xlino.github.io/bitcoinovertime/pages/2023-04.html">Prev</a>
+    <!-- NEXT BUTTON -->
+    <a class="next" href="https://0xlino.github.io/bitcoinovertime/pages/2023-06.html">Next</a>
+</body>
+
+</html>

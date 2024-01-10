@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #customers {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #customers td,
+        #customers th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #customers tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #customers tr:hover {
+            background-color: #ddd;
+        }
+
+        #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #04AA6D;
+            color: white;
+        }
+    </style>
+
+    <style>
+        a {
+            text-decoration: none;
+            display: inline-block;
+            padding: 8px 16px;
+        }
+
+        a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .previous {
+            background-color: #f1f1f1;
+            color: black;
+        }
+
+        .next {
+            background-color: #04AA6D;
+            color: white;
+        }
+
+        .round {
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <table id="customers">
+        <tr>
+            <th>Date</th>
+            <th>Price</th>
+            <th>Change</th>
+            <th>Since start</th>
+        </tr>
+        <tr><td>2019-05-01</td><td>5358.35</td><td>nan%</td><td>535829.00%</td></tr><tr><td>2019-05-02</td><td>5443.14</td><td>8479.00%</td><td>544308.00%</td></tr><tr><td>2019-05-03</td><td>5723.94</td><td>28080.00%</td><td>572388.00%</td></tr><tr><td>2019-05-04</td><td>5804.82</td><td>8088.00%</td><td>580476.00%</td></tr><tr><td>2019-05-05</td><td>5757.43</td><td>-4739.00%</td><td>575737.00%</td></tr><tr><td>2019-05-06</td><td>5768.14</td><td>1071.00%</td><td>576808.00%</td></tr><tr><td>2019-05-07</td><td>5796.59</td><td>2845.00%</td><td>579653.00%</td></tr><tr><td>2019-05-08</td><td>5975.09</td><td>17850.00%</td><td>597503.00%</td></tr><tr><td>2019-05-09</td><td>6176.41</td><td>20132.00%</td><td>617635.00%</td></tr><tr><td>2019-05-10</td><td>6370.51</td><td>19410.00%</td><td>637045.00%</td></tr><tr><td>2019-05-11</td><td>7255.6</td><td>88509.00%</td><td>725554.00%</td></tr><tr><td>2019-05-12</td><td>6897.28</td><td>-35832.00%</td><td>689722.00%</td></tr><tr><td>2019-05-13</td><td>7788.58</td><td>89130.00%</td><td>778852.00%</td></tr><tr><td>2019-05-14</td><td>7982.77</td><td>19419.00%</td><td>798271.00%</td></tr><tr><td>2019-05-15</td><td>8180.21</td><td>19744.00%</td><td>818015.00%</td></tr><tr><td>2019-05-16</td><td>7912.68</td><td>-26753.00%</td><td>791262.00%</td></tr><tr><td>2019-05-17</td><td>7396.72</td><td>-51596.00%</td><td>739666.00%</td></tr><tr><td>2019-05-18</td><td>7279.37</td><td>-11735.00%</td><td>727931.00%</td></tr><tr><td>2019-05-19</td><td>8129.22</td><td>84985.00%</td><td>812916.00%</td></tr><tr><td>2019-05-20</td><td>7992.22</td><td>-13700.00%</td><td>799216.00%</td></tr><tr><td>2019-05-21</td><td>7985.62</td><td>-660.00%</td><td>798556.00%</td></tr><tr><td>2019-05-22</td><td>7636.83</td><td>-34879.00%</td><td>763677.00%</td></tr><tr><td>2019-05-23</td><td>7867.67</td><td>23084.00%</td><td>786761.00%</td></tr><tr><td>2019-05-24</td><td>7982.58</td><td>11491.00%</td><td>798252.00%</td></tr><tr><td>2019-05-25</td><td>8048.82</td><td>6624.00%</td><td>804876.00%</td></tr><tr><td>2019-05-26</td><td>8671.58</td><td>62276.00%</td><td>867152.00%</td></tr><tr><td>2019-05-27</td><td>8793.35</td><td>12177.00%</td><td>879329.00%</td></tr><tr><td>2019-05-28</td><td>8695.5</td><td>-9785.00%</td><td>869544.00%</td></tr><tr><td>2019-05-29</td><td>8637.09</td><td>-5841.00%</td><td>863703.00%</td></tr><tr><td>2019-05-30</td><td>8345.53</td><td>-29156.00%</td><td>834547.00%</td></tr><tr><td>2019-05-31</td><td>8545.74</td><td>20021.00%</td><td>854568.00%</td></tr>
+    </table>
+
+
+    <!-- PREVIOS BUTTON -->
+    <a class="previous" href="https://0xlino.github.io/bitcoinovertime/pages/2019-04.html">Prev</a>
+    <!-- NEXT BUTTON -->
+    <a class="next" href="https://0xlino.github.io/bitcoinovertime/pages/2019-06.html">Next</a>
+</body>
+
+</html>

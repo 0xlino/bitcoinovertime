@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #customers {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #customers td,
+        #customers th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #customers tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #customers tr:hover {
+            background-color: #ddd;
+        }
+
+        #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #04AA6D;
+            color: white;
+        }
+    </style>
+
+    <style>
+        a {
+            text-decoration: none;
+            display: inline-block;
+            padding: 8px 16px;
+        }
+
+        a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .previous {
+            background-color: #f1f1f1;
+            color: black;
+        }
+
+        .next {
+            background-color: #04AA6D;
+            color: white;
+        }
+
+        .round {
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <table id="customers">
+        <tr>
+            <th>Date</th>
+            <th>Price</th>
+            <th>Change</th>
+            <th>Since start</th>
+        </tr>
+        <tr><td>2017-03-01</td><td>1194.63</td><td>nan%</td><td>119457.00%</td></tr><tr><td>2017-03-02</td><td>1225.2</td><td>3057.00%</td><td>122514.00%</td></tr><tr><td>2017-03-03</td><td>1259.04</td><td>3384.00%</td><td>125898.00%</td></tr><tr><td>2017-03-04</td><td>1259.53</td><td>49.00%</td><td>125947.00%</td></tr><tr><td>2017-03-05</td><td>1246.75</td><td>-1278.00%</td><td>124669.00%</td></tr><tr><td>2017-03-06</td><td>1263.66</td><td>1691.00%</td><td>126360.00%</td></tr><tr><td>2017-03-07</td><td>1239.13</td><td>-2453.00%</td><td>123907.00%</td></tr><tr><td>2017-03-08</td><td>1186.06</td><td>-5307.00%</td><td>118600.00%</td></tr><tr><td>2017-03-09</td><td>1167.29</td><td>-1877.00%</td><td>116723.00%</td></tr><tr><td>2017-03-10</td><td>1194.36</td><td>2707.00%</td><td>119430.00%</td></tr><tr><td>2017-03-11</td><td>1164.97</td><td>-2939.00%</td><td>116491.00%</td></tr><tr><td>2017-03-12</td><td>1190.64</td><td>2567.00%</td><td>119058.00%</td></tr><tr><td>2017-03-13</td><td>1220.0</td><td>2936.00%</td><td>121994.00%</td></tr><tr><td>2017-03-14</td><td>1233.66</td><td>1366.00%</td><td>123360.00%</td></tr><tr><td>2017-03-15</td><td>1253.82</td><td>2016.00%</td><td>125376.00%</td></tr><tr><td>2017-03-16</td><td>1226.93</td><td>-2689.00%</td><td>122687.00%</td></tr><tr><td>2017-03-17</td><td>1141.7</td><td>-8523.00%</td><td>114164.00%</td></tr><tr><td>2017-03-18</td><td>1047.0</td><td>-9470.00%</td><td>104694.00%</td></tr><tr><td>2017-03-19</td><td>1018.27</td><td>-2873.00%</td><td>101821.00%</td></tr><tr><td>2017-03-20</td><td>1044.95</td><td>2668.00%</td><td>104489.00%</td></tr><tr><td>2017-03-21</td><td>1089.49</td><td>4454.00%</td><td>108943.00%</td></tr><tr><td>2017-03-22</td><td>1063.72</td><td>-2577.00%</td><td>106366.00%</td></tr><tr><td>2017-03-23</td><td>1043.82</td><td>-1990.00%</td><td>104376.00%</td></tr><tr><td>2017-03-24</td><td>998.22</td><td>-4560.00%</td><td>99816.00%</td></tr><tr><td>2017-03-25</td><td>935.5</td><td>-6272.00%</td><td>93544.00%</td></tr><tr><td>2017-03-26</td><td>974.76</td><td>3926.00%</td><td>97470.00%</td></tr><tr><td>2017-03-27</td><td>1001.95</td><td>2719.00%</td><td>100189.00%</td></tr><tr><td>2017-03-28</td><td>1041.72</td><td>3977.00%</td><td>104166.00%</td></tr><tr><td>2017-03-29</td><td>1034.18</td><td>-754.00%</td><td>103412.00%</td></tr><tr><td>2017-03-30</td><td>1028.34</td><td>-584.00%</td><td>102828.00%</td></tr><tr><td>2017-03-31</td><td>1045.03</td><td>1669.00%</td><td>104497.00%</td></tr>
+    </table>
+
+
+    <!-- PREVIOS BUTTON -->
+    <a class="previous" href="https://0xlino.github.io/bitcoinovertime/pages/2017-02.html">Prev</a>
+    <!-- NEXT BUTTON -->
+    <a class="next" href="https://0xlino.github.io/bitcoinovertime/pages/2017-04.html">Next</a>
+</body>
+
+</html>
