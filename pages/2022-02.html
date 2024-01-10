@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #customers {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #customers td,
+        #customers th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #customers tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #customers tr:hover {
+            background-color: #ddd;
+        }
+
+        #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #04AA6D;
+            color: white;
+        }
+    </style>
+
+    <style>
+        a {
+            text-decoration: none;
+            display: inline-block;
+            padding: 8px 16px;
+        }
+
+        a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .previous {
+            background-color: #f1f1f1;
+            color: black;
+        }
+
+        .next {
+            background-color: #04AA6D;
+            color: white;
+        }
+
+        .round {
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <table id="customers">
+        <tr>
+            <th>Date</th>
+            <th>Price</th>
+            <th>Change</th>
+            <th>Since start</th>
+        </tr>
+        <tr><td>2022-02-01 00:00:00</td><td>38718.0</td><td>nan%</td><td>3871794.00%</td></tr><tr><td>2022-02-02 00:00:00</td><td>37052.0</td><td>-166600.00%</td><td>3705194.00%</td></tr><tr><td>2022-02-03 00:00:00</td><td>37302.0</td><td>25000.00%</td><td>3730194.00%</td></tr><tr><td>2022-02-04 00:00:00</td><td>41633.0</td><td>433100.00%</td><td>4163294.00%</td></tr><tr><td>2022-02-05 00:00:00</td><td>41494.0</td><td>-13900.00%</td><td>4149394.00%</td></tr><tr><td>2022-02-06 00:00:00</td><td>42353.0</td><td>85900.00%</td><td>4235294.00%</td></tr><tr><td>2022-02-07 00:00:00</td><td>43978.0</td><td>162500.00%</td><td>4397794.00%</td></tr><tr><td>2022-02-08 00:00:00</td><td>44166.0</td><td>18800.00%</td><td>4416594.00%</td></tr><tr><td>2022-02-09 00:00:00</td><td>44422.0</td><td>25600.00%</td><td>4442194.00%</td></tr><tr><td>2022-02-10 00:00:00</td><td>43334.0</td><td>-108800.00%</td><td>4333394.00%</td></tr><tr><td>2022-02-11 00:00:00</td><td>42437.0</td><td>-89700.00%</td><td>4243694.00%</td></tr><tr><td>2022-02-12 00:00:00</td><td>42283.0</td><td>-15400.00%</td><td>4228294.00%</td></tr><tr><td>2022-02-13 00:00:00</td><td>42172.0</td><td>-11100.00%</td><td>4217194.00%</td></tr><tr><td>2022-02-14 00:00:00</td><td>42616.0</td><td>44400.00%</td><td>4261594.00%</td></tr><tr><td>2022-02-15 00:00:00</td><td>44444.0</td><td>182800.00%</td><td>4444394.00%</td></tr><tr><td>2022-02-16 00:00:00</td><td>43937.0</td><td>-50700.00%</td><td>4393694.00%</td></tr><tr><td>2022-02-17 00:00:00</td><td>40570.0</td><td>-336700.00%</td><td>4056994.00%</td></tr><tr><td>2022-02-18 00:00:00</td><td>40056.0</td><td>-51400.00%</td><td>4005594.00%</td></tr><tr><td>2022-02-19 00:00:00</td><td>40180.0</td><td>12400.00%</td><td>4017994.00%</td></tr><tr><td>2022-02-20 00:00:00</td><td>38433.0</td><td>-174700.00%</td><td>3843294.00%</td></tr><tr><td>2022-02-21 00:00:00</td><td>37107.0</td><td>-132600.00%</td><td>3710694.00%</td></tr><tr><td>2022-02-22 00:00:00</td><td>38335.0</td><td>122800.00%</td><td>3833494.00%</td></tr><tr><td>2022-02-23 00:00:00</td><td>37397.0</td><td>-93800.00%</td><td>3739694.00%</td></tr><tr><td>2022-02-24 00:00:00</td><td>38389.0</td><td>99200.00%</td><td>3838894.00%</td></tr><tr><td>2022-02-25 00:00:00</td><td>39311.0</td><td>92200.00%</td><td>3931094.00%</td></tr><tr><td>2022-02-26 00:00:00</td><td>39194.0</td><td>-11700.00%</td><td>3919394.00%</td></tr><tr><td>2022-02-27 00:00:00</td><td>37842.0</td><td>-135200.00%</td><td>3784194.00%</td></tr><tr><td>2022-02-28 00:00:00</td><td>43363.0</td><td>552100.00%</td><td>4336294.00%</td></tr>
+    </table>
+
+
+    <!-- PREVIOS BUTTON -->
+    <a class="previous" href="https://0xlino.github.io/betterovertime/pages/2022-01.html">Prev</a>
+    <!-- NEXT BUTTON -->
+    <a class="next" href="https://0xlino.github.io/betterovertime/pages/2022-03.html">Next</a>
+</body>
+
+</html>

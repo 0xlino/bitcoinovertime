@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #customers {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #customers td,
+        #customers th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #customers tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #customers tr:hover {
+            background-color: #ddd;
+        }
+
+        #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #04AA6D;
+            color: white;
+        }
+    </style>
+
+    <style>
+        a {
+            text-decoration: none;
+            display: inline-block;
+            padding: 8px 16px;
+        }
+
+        a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .previous {
+            background-color: #f1f1f1;
+            color: black;
+        }
+
+        .next {
+            background-color: #04AA6D;
+            color: white;
+        }
+
+        .round {
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <table id="customers">
+        <tr>
+            <th>Date</th>
+            <th>Price</th>
+            <th>Change</th>
+            <th>Since start</th>
+        </tr>
+        <tr><td>2018-10-01 00:00:00</td><td>6600.3</td><td>nan%</td><td>660024.00%</td></tr><tr><td>2018-10-02 00:00:00</td><td>6567.79</td><td>-3251.00%</td><td>656773.00%</td></tr><tr><td>2018-10-03 00:00:00</td><td>6475.03</td><td>-9276.00%</td><td>647497.00%</td></tr><tr><td>2018-10-04 00:00:00</td><td>6572.98</td><td>9795.00%</td><td>657292.00%</td></tr><tr><td>2018-10-05 00:00:00</td><td>6575.81</td><td>283.00%</td><td>657575.00%</td></tr><tr><td>2018-10-06 00:00:00</td><td>6588.16</td><td>1235.00%</td><td>658810.00%</td></tr><tr><td>2018-10-07 00:00:00</td><td>6565.9</td><td>-2226.00%</td><td>656584.00%</td></tr><tr><td>2018-10-08 00:00:00</td><td>6620.14</td><td>5424.00%</td><td>662008.00%</td></tr><tr><td>2018-10-09 00:00:00</td><td>6629.48</td><td>934.00%</td><td>662942.00%</td></tr><tr><td>2018-10-10 00:00:00</td><td>6569.85</td><td>-5963.00%</td><td>656979.00%</td></tr><tr><td>2018-10-11 00:00:00</td><td>6274.91</td><td>-29494.00%</td><td>627485.00%</td></tr><tr><td>2018-10-12 00:00:00</td><td>6270.23</td><td>-468.00%</td><td>627017.00%</td></tr><tr><td>2018-10-13 00:00:00</td><td>6277.89</td><td>766.00%</td><td>627783.00%</td></tr><tr><td>2018-10-14 00:00:00</td><td>6328.17</td><td>5028.00%</td><td>632811.00%</td></tr><tr><td>2018-10-15 00:00:00</td><td>6509.79</td><td>18162.00%</td><td>650973.00%</td></tr><tr><td>2018-10-16 00:00:00</td><td>6545.88</td><td>3609.00%</td><td>654582.00%</td></tr><tr><td>2018-10-17 00:00:00</td><td>6519.47</td><td>-2641.00%</td><td>651941.00%</td></tr><tr><td>2018-10-18 00:00:00</td><td>6509.41</td><td>-1006.00%</td><td>650935.00%</td></tr><tr><td>2018-10-19 00:00:00</td><td>6467.15</td><td>-4226.00%</td><td>646709.00%</td></tr><tr><td>2018-10-20 00:00:00</td><td>6490.4</td><td>2325.00%</td><td>649034.00%</td></tr><tr><td>2018-10-21 00:00:00</td><td>6523.43</td><td>3303.00%</td><td>652337.00%</td></tr><tr><td>2018-10-22 00:00:00</td><td>6481.04</td><td>-4239.00%</td><td>648098.00%</td></tr><tr><td>2018-10-23 00:00:00</td><td>6483.53</td><td>249.00%</td><td>648347.00%</td></tr><tr><td>2018-10-24 00:00:00</td><td>6515.15</td><td>3162.00%</td><td>651509.00%</td></tr><tr><td>2018-10-25 00:00:00</td><td>6485.97</td><td>-2918.00%</td><td>648591.00%</td></tr><tr><td>2018-10-26 00:00:00</td><td>6477.13</td><td>-884.00%</td><td>647707.00%</td></tr><tr><td>2018-10-27 00:00:00</td><td>6476.32</td><td>-81.00%</td><td>647626.00%</td></tr><tr><td>2018-10-28 00:00:00</td><td>6476.09</td><td>-23.00%</td><td>647603.00%</td></tr><tr><td>2018-10-29 00:00:00</td><td>6396.96</td><td>-7913.00%</td><td>639690.00%</td></tr><tr><td>2018-10-30 00:00:00</td><td>6319.47</td><td>-7749.00%</td><td>631941.00%</td></tr><tr><td>2018-10-31 00:00:00</td><td>6319.77</td><td>30.00%</td><td>631971.00%</td></tr>
+    </table>
+
+
+    <!-- PREVIOS BUTTON -->
+    <a class="previous" href="https://0xlino.github.io/betterovertime/pages/2018-09.html">Prev</a>
+    <!-- NEXT BUTTON -->
+    <a class="next" href="https://0xlino.github.io/betterovertime/pages/2018-11.html">Next</a>
+</body>
+
+</html>

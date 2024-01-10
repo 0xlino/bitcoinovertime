@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #customers {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #customers td,
+        #customers th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #customers tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #customers tr:hover {
+            background-color: #ddd;
+        }
+
+        #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #04AA6D;
+            color: white;
+        }
+    </style>
+
+    <style>
+        a {
+            text-decoration: none;
+            display: inline-block;
+            padding: 8px 16px;
+        }
+
+        a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .previous {
+            background-color: #f1f1f1;
+            color: black;
+        }
+
+        .next {
+            background-color: #04AA6D;
+            color: white;
+        }
+
+        .round {
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <table id="customers">
+        <tr>
+            <th>Date</th>
+            <th>Price</th>
+            <th>Change</th>
+            <th>Since start</th>
+        </tr>
+        <tr><td>2021-07-01 00:00:00</td><td>33596.0</td><td>nan%</td><td>3359594.00%</td></tr><tr><td>2021-07-02 00:00:00</td><td>33826.0</td><td>23000.00%</td><td>3382594.00%</td></tr><tr><td>2021-07-03 00:00:00</td><td>34791.0</td><td>96500.00%</td><td>3479094.00%</td></tr><tr><td>2021-07-04 00:00:00</td><td>35394.0</td><td>60300.00%</td><td>3539394.00%</td></tr><tr><td>2021-07-05 00:00:00</td><td>33906.0</td><td>-148800.00%</td><td>3390594.00%</td></tr><tr><td>2021-07-06 00:00:00</td><td>34319.0</td><td>41300.00%</td><td>3431894.00%</td></tr><tr><td>2021-07-07 00:00:00</td><td>33883.0</td><td>-43600.00%</td><td>3388294.00%</td></tr><tr><td>2021-07-08 00:00:00</td><td>32934.0</td><td>-94900.00%</td><td>3293394.00%</td></tr><tr><td>2021-07-09 00:00:00</td><td>33947.0</td><td>101300.00%</td><td>3394694.00%</td></tr><tr><td>2021-07-10 00:00:00</td><td>33749.0</td><td>-19800.00%</td><td>3374894.00%</td></tr><tr><td>2021-07-11 00:00:00</td><td>34300.0</td><td>55100.00%</td><td>3429994.00%</td></tr><tr><td>2021-07-12 00:00:00</td><td>33072.0</td><td>-122800.00%</td><td>3307194.00%</td></tr><tr><td>2021-07-13 00:00:00</td><td>32789.0</td><td>-28300.00%</td><td>3278894.00%</td></tr><tr><td>2021-07-14 00:00:00</td><td>32874.0</td><td>8500.00%</td><td>3287394.00%</td></tr><tr><td>2021-07-15 00:00:00</td><td>31807.0</td><td>-106700.00%</td><td>3180694.00%</td></tr><tr><td>2021-07-16 00:00:00</td><td>31439.0</td><td>-36800.00%</td><td>3143894.00%</td></tr><tr><td>2021-07-17 00:00:00</td><td>31612.0</td><td>17300.00%</td><td>3161194.00%</td></tr><tr><td>2021-07-18 00:00:00</td><td>31914.0</td><td>30200.00%</td><td>3191394.00%</td></tr><tr><td>2021-07-19 00:00:00</td><td>30982.0</td><td>-93200.00%</td><td>3098194.00%</td></tr><tr><td>2021-07-20 00:00:00</td><td>29962.0</td><td>-102000.00%</td><td>2996194.00%</td></tr><tr><td>2021-07-21 00:00:00</td><td>32324.0</td><td>236200.00%</td><td>3232394.00%</td></tr><tr><td>2021-07-22 00:00:00</td><td>32398.0</td><td>7400.00%</td><td>3239794.00%</td></tr><tr><td>2021-07-23 00:00:00</td><td>33500.0</td><td>110200.00%</td><td>3349994.00%</td></tr><tr><td>2021-07-24 00:00:00</td><td>34297.0</td><td>79700.00%</td><td>3429694.00%</td></tr><tr><td>2021-07-25 00:00:00</td><td>35492.0</td><td>119500.00%</td><td>3549194.00%</td></tr><tr><td>2021-07-26 00:00:00</td><td>37064.0</td><td>157200.00%</td><td>3706394.00%</td></tr><tr><td>2021-07-27 00:00:00</td><td>39181.0</td><td>211700.00%</td><td>3918094.00%</td></tr><tr><td>2021-07-28 00:00:00</td><td>39980.0</td><td>79900.00%</td><td>3997994.00%</td></tr><tr><td>2021-07-29 00:00:00</td><td>40019.0</td><td>3900.00%</td><td>4001894.00%</td></tr><tr><td>2021-07-30 00:00:00</td><td>42048.0</td><td>202900.00%</td><td>4204794.00%</td></tr><tr><td>2021-07-31 00:00:00</td><td>41719.0</td><td>-32900.00%</td><td>4171894.00%</td></tr>
+    </table>
+
+
+    <!-- PREVIOS BUTTON -->
+    <a class="previous" href="https://0xlino.github.io/betterovertime/pages/2021-06.html">Prev</a>
+    <!-- NEXT BUTTON -->
+    <a class="next" href="https://0xlino.github.io/betterovertime/pages/2021-08.html">Next</a>
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #customers {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #customers td,
+        #customers th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #customers tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #customers tr:hover {
+            background-color: #ddd;
+        }
+
+        #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #04AA6D;
+            color: white;
+        }
+    </style>
+
+    <style>
+        a {
+            text-decoration: none;
+            display: inline-block;
+            padding: 8px 16px;
+        }
+
+        a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .previous {
+            background-color: #f1f1f1;
+            color: black;
+        }
+
+        .next {
+            background-color: #04AA6D;
+            color: white;
+        }
+
+        .round {
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <table id="customers">
+        <tr>
+            <th>Date</th>
+            <th>Price</th>
+            <th>Change</th>
+            <th>Since start</th>
+        </tr>
+        <tr><td>2020-10-01 00:00:00</td><td>10627.98</td><td>nan%</td><td>1062792.00%</td></tr><tr><td>2020-10-02 00:00:00</td><td>10556.26</td><td>-7172.00%</td><td>1055620.00%</td></tr><tr><td>2020-10-03 00:00:00</td><td>10548.82</td><td>-744.00%</td><td>1054876.00%</td></tr><tr><td>2020-10-04 00:00:00</td><td>10716.69</td><td>16787.00%</td><td>1071663.00%</td></tr><tr><td>2020-10-05 00:00:00</td><td>10790.15</td><td>7346.00%</td><td>1079009.00%</td></tr><tr><td>2020-10-06 00:00:00</td><td>10608.79</td><td>-18136.00%</td><td>1060873.00%</td></tr><tr><td>2020-10-07 00:00:00</td><td>10672.16</td><td>6337.00%</td><td>1067210.00%</td></tr><tr><td>2020-10-08 00:00:00</td><td>10918.68</td><td>24652.00%</td><td>1091862.00%</td></tr><tr><td>2020-10-09 00:00:00</td><td>11056.09</td><td>13741.00%</td><td>1105603.00%</td></tr><tr><td>2020-10-10 00:00:00</td><td>11296.8</td><td>24071.00%</td><td>1129674.00%</td></tr><tr><td>2020-10-11 00:00:00</td><td>11344.73</td><td>4793.00%</td><td>1134467.00%</td></tr><tr><td>2020-10-12 00:00:00</td><td>11543.71</td><td>19898.00%</td><td>1154365.00%</td></tr><tr><td>2020-10-13 00:00:00</td><td>11424.81</td><td>-11890.00%</td><td>1142475.00%</td></tr><tr><td>2020-10-14 00:00:00</td><td>11410.37</td><td>-1444.00%</td><td>1141031.00%</td></tr><tr><td>2020-10-15 00:00:00</td><td>11478.33</td><td>6796.00%</td><td>1147827.00%</td></tr><tr><td>2020-10-16 00:00:00</td><td>11316.5</td><td>-16183.00%</td><td>1131644.00%</td></tr><tr><td>2020-10-17 00:00:00</td><td>11357.92</td><td>4142.00%</td><td>1135786.00%</td></tr><tr><td>2020-10-18 00:00:00</td><td>11498.96</td><td>14104.00%</td><td>1149890.00%</td></tr><tr><td>2020-10-19 00:00:00</td><td>11752.15</td><td>25319.00%</td><td>1175209.00%</td></tr><tr><td>2020-10-20 00:00:00</td><td>11966.73</td><td>21458.00%</td><td>1196667.00%</td></tr><tr><td>2020-10-21 00:00:00</td><td>12806.94</td><td>84021.00%</td><td>1280688.00%</td></tr><tr><td>2020-10-22 00:00:00</td><td>12961.59</td><td>15465.00%</td><td>1296153.00%</td></tr><tr><td>2020-10-23 00:00:00</td><td>12929.44</td><td>-3215.00%</td><td>1292938.00%</td></tr><tr><td>2020-10-24 00:00:00</td><td>13089.4</td><td>15996.00%</td><td>1308934.00%</td></tr><tr><td>2020-10-25 00:00:00</td><td>13023.35</td><td>-6605.00%</td><td>1302329.00%</td></tr><tr><td>2020-10-26 00:00:00</td><td>13062.81</td><td>3946.00%</td><td>1306275.00%</td></tr><tr><td>2020-10-27 00:00:00</td><td>13679.87</td><td>61706.00%</td><td>1367981.00%</td></tr><tr><td>2020-10-28 00:00:00</td><td>13275.88</td><td>-40399.00%</td><td>1327582.00%</td></tr><tr><td>2020-10-29 00:00:00</td><td>13441.88</td><td>16600.00%</td><td>1344182.00%</td></tr><tr><td>2020-10-30 00:00:00</td><td>13546.27</td><td>10439.00%</td><td>1354621.00%</td></tr><tr><td>2020-10-31 00:00:00</td><td>13831.63</td><td>28536.00%</td><td>1383157.00%</td></tr>
+    </table>
+
+
+    <!-- PREVIOS BUTTON -->
+    <a class="previous" href="https://0xlino.github.io/betterovertime/pages/2020-09.html">Prev</a>
+    <!-- NEXT BUTTON -->
+    <a class="next" href="https://0xlino.github.io/betterovertime/pages/2020-11.html">Next</a>
+</body>
+
+</html>
